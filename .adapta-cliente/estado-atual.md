@@ -1,0 +1,21 @@
+# Estado atual — Adapta Cliente
+
+- schema_version: adapta-cliente-state/v2
+- task_id: nenhuma
+- executor: maesthos (Ethos do cliente)
+- owner_informativo: Leonardo (champion — testes e aprovações)
+- spec: nenhuma
+- analise: nenhuma
+- etapa: sem_task
+- autorizacao_implementacao: ausente
+- teste_humano: nao_aplicavel
+- verificacao_automatica: pendente
+- aprendizado: pendente
+- sistema: radar-primitivo
+- skip_projeto: 64528
+- skip_versao: nenhuma
+- skip_publicacao: nao_aplicavel
+- pendente_github: nao
+- ultima_acao: rota configurar concluída — GitHub validado, 3 projetos Skip confirmados (64528 produção, 64536 teste, 64537 restauro) e plataforma.md registrada
+- proxima_acao: selecionar e analisar a primeira task elegível da Fase 1 (proxima-task), parando no portão de autorização
+- atualizado_em: 2026-10-08T11:15:00-03:00
