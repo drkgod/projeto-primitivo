@@ -1,5 +1,12 @@
 # Histórico operacional
 
+## 08/10/2026 — Projeto Greenexta vinculado como submódulo
+
+- A pedido do consultor, adicionado `LeoMaestro-26/projeto-greenexta-2n35968qi` em `07-sistemas/projeto-greenexta-2n35968qi/`, branch de acompanhamento `main`.
+- Referência inicial do sistema: `599577ef86d93c90f09cf4348110ea2730a0479d`.
+- Registrados `.gitmodules` e instruções de clone/inicialização em `07-sistemas/README.md`.
+- Incorporadas antes da alteração as atualizações remotas do plugin do cliente, sem alterar tasks ou código do sistema.
+
 ## 08/10/2026 — Configuração do plugin concluída e análise da primeira task
 
 - Rota configurar fechada: GitHub validado por leitura; 3 projetos Skip confirmados (produção 64528 "Projeto Greenexta", teste 64536 "Radar Primitivo Teste", restauro 64537 "Radar Primitivo Restauro"); `07-sistemas/radar-primitivo/plataforma.md` registrada (commit 43db15d).

@@ -26,6 +26,8 @@ A primeira entrega é uma versão visual navegável de Meu dia, Ficha da empresa
 | '07-sistemas/' | Código, migrações, hooks e testes do app |
 | 'STATUS.md' e 'changelog.md' | Estado e histórico operacionais |
 
+O [Projeto Greenexta](07-sistemas/README.md) está vinculado como submódulo em `07-sistemas/projeto-greenexta-2n35968qi/`. Para carregar o código após clonar este repositório, execute `git submodule update --init --recursive`.
+
 ## Pré-condições da execução
 
 - Acesso ao Skip e ao Maestro e e-mails dos usuários.
