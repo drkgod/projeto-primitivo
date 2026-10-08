@@ -1,5 +1,13 @@
 # Histórico operacional
 
+## 08/10/2026 — Configuração do plugin concluída e análise da primeira task
+
+- Rota configurar fechada: GitHub validado por leitura; 3 projetos Skip confirmados (produção 64528 "Projeto Greenexta", teste 64536 "Radar Primitivo Teste", restauro 64537 "Radar Primitivo Restauro"); `07-sistemas/radar-primitivo/plataforma.md` registrada (commit 43db15d).
+- Produção publicada (v0.0.4, ref a823b66) com estado do orquestrador, mapa do sistema e análise da primeira task.
+- Primeira task selecionada e analisada: "Criar a primeira versão visual do Radar Primitivo" (SPEC-1-008, CA-1-35/36) — relatório em `.adapta-cliente/analises/SPEC-1-008-visual-v1.md`, estado `aguardando_autorizacao`.
+- DÚVIDA registrada ao consultor: o "app com login e papéis já realizado" não foi localizado em nenhum dos 4 projetos da org (verificado por listagem); a demo segue na estrutura real do template.
+- Nenhuma task implementada nesta atualização; aguardando autorização do champion.
+
 ## 08/10/2026 — Entrega visual no início da Fase 1
 
 - Incluída a SPEC-1-008 com Meu dia, Ficha e Perfis navegáveis, fixtures, ações simuladas, revisão responsiva/acessibilidade e aceite CL-005.
@@ -9,14 +17,12 @@
 - Lista ativa: 57 cards e 8 SPECs. Os 54 cards anteriores permanecem intactos.
 - Execução do app, capturas e testes da SPEC permanecem pendentes; esta mudança atualiza o plano de execução.
 
-
 ## 08/10/2026 — Retirada da primeira task já realizada
 
 - A pedido do consultor, retirado da lista ativa o grupo “Criar o app no Skip com login e papéis de acesso”, incluindo quatro subtarefas, pois ele informou que já foi feito.
 - Histórico e UUIDs preservados em [06_notas/2026-10-08-task-inicial-ja-realizada.md](06_notas/2026-10-08-task-inicial-ja-realizada.md).
 - Lista ativa: 24 tasks principais e 30 subtarefas; UUIDs, prazos, responsáveis, status e descrições restantes preservados.
 - Atualizados a SPEC-1-001, o índice e a documentação operacional. Nenhum teste técnico executado nesta atualização.
-
 
 ## 08/10/2026 — Publicação no GitHub
 

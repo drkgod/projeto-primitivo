@@ -1,12 +1,12 @@
 # Estado atual — Adapta Cliente
 
 - schema_version: adapta-cliente-state/v2
-- task_id: nenhuma
+- task_id: SPEC-1-008-visual-v1 (UUID do portal pendente — card novo sem id)
 - executor: maesthos (Ethos do cliente)
 - owner_informativo: Leonardo (champion — testes e aprovações)
-- spec: nenhuma
-- analise: nenhuma
-- etapa: sem_task
+- spec: 04_fase-atual/specs/spec-1-008-primeira-experiencia-visual.md
+- analise: .adapta-cliente/analises/SPEC-1-008-visual-v1.md
+- etapa: aguardando_autorizacao
 - autorizacao_implementacao: ausente
 - teste_humano: nao_aplicavel
 - verificacao_automatica: pendente
@@ -16,6 +16,6 @@
 - skip_versao: nenhuma
 - skip_publicacao: nao_aplicavel
 - pendente_github: nao
-- ultima_acao: rota configurar concluída — GitHub validado, 3 projetos Skip confirmados (64528 produção, 64536 teste, 64537 restauro) e plataforma.md registrada
-- proxima_acao: selecionar e analisar a primeira task elegível da Fase 1 (proxima-task), parando no portão de autorização
-- atualizado_em: 2026-10-08T11:15:00-03:00
+- ultima_acao: análise da task SPEC-1-008-visual-v1 concluída (relatório persistido + mapa do sistema); DÚVIDA ao consultor registrada sobre o app com login/papéis relatado como pronto
+- proxima_acao: aguardar autorização para implementar
+- atualizado_em: 2026-10-08T11:25:00-03:00
