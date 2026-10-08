@@ -29,6 +29,15 @@ Marque `[x]` para concluir e adicione linhas novas à vontade: elas entram no qu
 sincronização e voltam aqui com o `<!-- id:… -->` preenchido. **Não apague o marcador de id** das
 tarefas que já têm um.
 
+- [ ] Criar a primeira versão visual do Radar Primitivo @Primitivo
+  > Começar por uma versão navegável de Meu dia, Ficha da empresa e Perfis de busca no app existente, com dados fictícios e ações simuladas. Reaproveitar login e componentes já prontos; não depende de ICP real nem de Apollo.
+  > O Maestro deve localizar, ler e aplicar as skills de UI/UX já instaladas no ambiente e registrar quais usou e as decisões de design. Se nenhuma estiver disponível, informar o impedimento antes de implementar. SPEC-1-008 · CA-1-35, CA-1-36. Prova: registro das skills, testes RED/GREEN do estado da demo e gravação das três telas navegáveis.
+- [ ] Testar a navegação e o visual no celular @Primitivo
+  > Após a primeira versão visual, testar desktop 1440×900 e celular 375×812, teclado, foco, rótulos, estados vazio/erro/carregando e recuperação. Conferir ações simuladas e reset; corrigir problemas sem alterar backend, permissões ou produção.
+  > SPEC-1-008 · CA-1-36, CA-1-37. Prova: capturas desktop/mobile, roteiro de regressão visual e testes verdes. A task para ao final da revisão, antes do aceite humano.
+- [ ] Validar o visual do app com o Country Manager @Primitivo
+  > Apresentar a versão revisada ao Leonardo: abrir fila, entender a prioridade, abrir ficha, aprovar/desfazer, adiar e navegar entre perfis; repetir no celular e registrar o que falta, sobra ou mudaria. Fazer os ajustes visuais solicitados e obter aprovação explícita.
+  > SPEC-1-008 · CA-1-38 · CL-005. Prova: roteiro e aceite-visual.md. A aprovação visual não encerra a Fase 1 nem comprova integrações; a jornada real permanece na SPEC-1-007.
 - [ ] Escolher o primeiro perfil e enviar os critérios de bom cliente @Primitivo !07/10/2026  <!-- id:dcc49939-f29e-46ac-8eba-832b3bf5c9e0 -->
   > Com esses critérios o app dá a nota de cada empresa e decide quem entra na fila. Enviar pelo grupo do WhatsApp, em texto ou documento.
   > SPEC-1-002 · pré-condição do CA-1-08. Checklist: CL-001.

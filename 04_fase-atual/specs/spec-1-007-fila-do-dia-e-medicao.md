@@ -150,3 +150,8 @@
 | Data | Origem do sinal | Micro-spec/task | Motivo |
 |---|---|---|---|
 | | | | |
+
+
+## Complemento visual — 08/10/2026
+
+A SPEC-1-008 antecipa a primeira experiência visual de Meu dia, Ficha e Perfis com dados fictícios, usando as skills de UI/UX existentes. Na implementação funcional desta SPEC, reutilizar os componentes e ajustes aprovados em CL-005, preservando todos os CA-1-29 a CA-1-34. O aceite visual da demo não aprova score, Apollo, coleta, permissões ou jornada real.

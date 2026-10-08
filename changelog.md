@@ -1,5 +1,15 @@
 # Histórico operacional
 
+## 08/10/2026 — Entrega visual no início da Fase 1
+
+- Incluída a SPEC-1-008 com Meu dia, Ficha e Perfis navegáveis, fixtures, ações simuladas, revisão responsiva/acessibilidade e aceite CL-005.
+- Três novos cards antes da preparação: criar versão visual, testar navegação/celular e validar com o Country Manager; sem UUID ou prazo inventado.
+- Maestro deve localizar, ler e aplicar as skills de UI/UX instaladas, registrando nomes e decisões. A ausência de skill acessível é impedimento explícito.
+- Mantidos login existente e contratos funcionais. Demo não depende de Apollo e não substitui o aceite real da Fase 1.
+- Lista ativa: 57 cards e 8 SPECs. Os 54 cards anteriores permanecem intactos.
+- Execução do app, capturas e testes da SPEC permanecem pendentes; esta mudança atualiza o plano de execução.
+
+
 ## 08/10/2026 — Retirada da primeira task já realizada
 
 - A pedido do consultor, retirado da lista ativa o grupo “Criar o app no Skip com login e papéis de acesso”, incluindo quatro subtarefas, pois ele informou que já foi feito.
