@@ -6,7 +6,7 @@
 - url_preview: https://projeto-greenexta-d13f9--preview.goskip.app
 - versao_aplicada: a823b66 (v0.0.4 — governança da task SPEC-1-008-visual-v1)
 - versao_publicada: a823b66 em 2026-10-08T14:23:19Z
-- ultima_task: SPEC-1-008-visual-v1 (implementada; demo no projeto de teste 64536 pendente de publicação)
+- ultima_task: SPEC-1-008-visual-v1 (implementada e publicada no teste 64536; aguardando teste humano CL-005)
 - espelho: `codigo/` guarda a última versão de cada arquivo alterado pelas tasks. É cópia de
   consulta; a fonte executável é o Skip. Nunca edite o espelho para mudar o sistema.
 
@@ -26,4 +26,4 @@ produção; os ambientes de teste e restauro foram criados em branco conforme as
 | Data | Task | Versão publicada | Arquivos alterados |
 |---|---|---|---|
 | 08/10/2026 | config | — (não é entrega de produto) | .adapta-cliente/estado-atual.md, 07-sistemas/radar-primitivo/plataforma.md |
-| 08/10/2026 | SPEC-1-008-visual-v1 | produção a823b66 (governança) · teste 64536 PENDENTE (MCP "manager is closed" após 5 gravações; faltam Perfis.tsx e App.tsx no working tree) | ver espelho em codigo/ |
+| 08/10/2026 | SPEC-1-008-visual-v1 | produção a823b66 (governança) · teste 64536 v0.0.2 (4aa2ec4, publicada 16:55 UTC — demo no ar) | ver espelho em codigo/ |

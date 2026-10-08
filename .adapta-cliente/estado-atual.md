@@ -6,16 +6,16 @@
 - owner_informativo: Leonardo (champion — testes e aprovações)
 - spec: 04_fase-atual/specs/spec-1-008-primeira-experiencia-visual.md
 - analise: .adapta-cliente/analises/SPEC-1-008-visual-v1.md
-- etapa: bloqueada (publicação no Skip de teste pendente — plataforma indisponível)
+- etapa: aguardando_teste_humano
 - autorizacao_implementacao: confirmada 08/10/2026 11:25 BRT — "Sim — pode implementar" (mensagem nova após o relatório)
-- teste_humano: pendente
-- verificacao_automatica: passou — RED confirmado (11 testes, ERR_MODULE_NOT_FOUND) e GREEN 11/11 (node --test); QA do Skip não pôde rodar no 64536 (MCP "manager is closed")
+- teste_humano: aguardando Leonardo — URL https://radar-primitivo-teste-3a85f.goskip.app/demo (roteiro CL-005)
+- verificacao_automatica: passou — RED confirmado e GREEN 11/11 (node --test); QA do Skip integral verde no 64536 (v0.0.2 4aa2ec4)
 - aprendizado: capturado:06_notas/aprendizado-continuo/AP-2026-10-08-1200-skip-mcp-manager-closed.md
 - sistema: radar-primitivo
 - skip_projeto: 64528 (produção, v0.0.4 a823b66 publicada)
-- skip_versao: nenhuma no 64536 — 5/8 arquivos gravados (módulo, testes, fixtures, DemoShell, MeuDia); faltam Perfis.tsx e patch do App.tsx
-- skip_publicacao: falhou:MCP do Skip indisponível ("manager is closed") no projeto de teste após 5 gravações; produção 64528 publicada (a823b66)
+- skip_versao: 64536 v0.0.2 (4aa2ec4) — demo completa com os 8 arquivos aprovados
+- skip_publicacao: 64536 publicada em 08/10/2026 16:55 UTC — https://radar-primitivo-teste-3a85f.goskip.app
 - pendente_github: nao
-- ultima_acao: entrega sincronizada ao GitHub após recuperação da camada MCP (código completo, evidências e governança); publicação no teste 64536 segue pendente da plataforma
-- proxima_acao: aplicar Perfis.tsx + App.tsx e publicar o projeto de teste 64536 quando o MCP do Skip responder
-- atualizado_em: 2026-10-08T12:40:00-03:00
+- ultima_acao: publicação no teste 64536 concluída e provada (demo no ar); estado movido para aguardando_teste_humano
+- proxima_acao: Leonardo executa o roteiro CL-005 e declara o resultado (aprovado, ou reprovado com detalhe do problema)
+- atualizado_em: 2026-10-08T13:55:00-03:00
