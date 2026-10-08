@@ -125,11 +125,6 @@ O Country Manager entra no app com o próprio login e vê somente o que o papel 
 
 | ID | Task | Dono | SPEC | Critério | Recorte da prova | Evidência esperada | Pré-condições |
 |---|---|---|---|---|---|---|---|
-| e9431482-e860-4567-a7a5-2686aa2fc09a | Criar o app no Skip com login e papéis de acesso | Primitivo | SPEC-1-001 | CA-1-01, CA-1-02 | RED/GREEN de acesso e auditoria | `green.txt` | acesso ao Skip |
-| b1e92f2a-04ac-42f4-a6db-ecaec10ae7b4 | Criar o projeto do app no Skip | Primitivo | SPEC-1-001 | CA-1-01 | projeto e segredo criados | captura do projeto | acesso ao Skip |
-| e1ebe3ff-e63e-489b-ad40-181920495c85 | Cadastrar o Country Manager e o administrador | Primitivo | SPEC-1-001 | CA-1-01 | login dos dois papéis | captura do login | e-mails dos usuários |
-| 9cddfbf9-a0ec-41f0-b032-81f34994695c | Bloquear telas e dados para quem não tem acesso | Primitivo | SPEC-1-001 | CA-1-01 | `acesso.test.mjs` GREEN | `green.txt` | coleções criadas |
-| 9c0d46c5-ceda-4f24-998b-c0ebf24dc805 | Registrar o histórico das ações importantes | Primitivo | SPEC-1-001 | CA-1-02 | `auditoria.test.mjs` GREEN | `green.txt` | coleções criadas |
 | 3de24d80-34be-4b4e-8184-4657bec6f4b5 | Aprovar as regras de uso dos contatos | Primitivo | SPEC-1-001 | CA-1-03 (pré-condição) | regras registradas em `config` | mensagem/registro da aprovação | G-02 |
 | f29d5193-aec5-42ec-9ac9-9b528cec32ba | Definir quem pode ver e editar contatos no app | Primitivo | SPEC-1-001 | CA-1-01 (pré-condição) | papéis confirmados | registro da decisão | — |
 | 501bd0d0-578c-4dd9-9a37-5f993145e0c0 | Definir o prazo de guarda dos contatos | Primitivo | SPEC-1-001 | CA-1-03 (pré-condição) | valor em `config.retencao_contatos_dias` | registro da decisão | — |
@@ -146,3 +141,8 @@ O Country Manager entra no app com o próprio login e vê somente o que o papel 
 | Data | Origem do sinal | Micro-spec/task | Motivo |
 |---|---|---|---|
 | | | | |
+
+
+## Atualização de 08/10/2026
+
+O consultor informou que a task de criação do app, login, papéis e histórico já foi feita e pediu sua retirada da lista ativa, incluindo suas quatro subtarefas. UUIDs e contexto preservados em [06_notas/2026-10-08-task-inicial-ja-realizada.md](../../06_notas/2026-10-08-task-inicial-ja-realizada.md). Critérios de acesso e auditoria permanecem como referência de regressão; esta atualização não executou testes técnicos.

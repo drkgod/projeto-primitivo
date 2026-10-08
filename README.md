@@ -9,7 +9,7 @@ O objetivo é configurar o perfil de cliente, descobrir empresas por fontes auto
 ## Por onde começar
 
 1. Leia [STATUS.md](STATUS.md).
-2. Abra [as tasks da fase atual](04_fase-atual/fase.md): 25 tasks principais e 34 subtarefas, com responsáveis, prazos, descrições e UUIDs do portal preservados.
+2. Abra [as tasks da fase atual](04_fase-atual/fase.md): 24 tasks principais e 30 subtarefas, com responsáveis, prazos, descrições e UUIDs do portal preservados.
 3. Consulte [o índice das 7 SPECs](04_fase-atual/specs/00-INDICE.md) e a SPEC da task antes de alterar o app.
 4. Execute uma task por vez, rode as provas da SPEC e registre as evidências em '05_entregas/fase-1/SPEC-1-00N/'. Marque a task como concluída somente após a prova e o teste humano aplicável.
 

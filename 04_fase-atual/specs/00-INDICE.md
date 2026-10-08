@@ -23,6 +23,8 @@ O Country Manager configura um perfil de cliente uma vez; em dias úteis o app b
 
 ## Ordem de execução
 
+**Atualização de 08/10/2026:** a criação do app com login, papéis e histórico foi informada como já realizada pelo consultor e retirada da lista ativa. A próxima task é escolher o perfil inicial e enviar os critérios. O restante das entregas e provas das SPECs permanece aplicável.
+
 1. Preparação (06–09/10): app com login; perfil e critérios do cliente; Apollo liberada; fonte aprovada; regras de uso dos contatos; tempo atual e capacidade.
 2. Caminho principal (09–15/10): perfil ativo → conexão Apollo → descoberta diária → consolidação → nota e gate → decisores e contatos (modo simulado).
 3. Bordas e proteção (13–16/10): lista de bloqueio, falhas de fonte e da Apollo, contato manual, cópia e restauração testadas — só depois disso entra contato real.

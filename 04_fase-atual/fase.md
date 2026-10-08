@@ -29,17 +29,6 @@ Marque `[x]` para concluir e adicione linhas novas à vontade: elas entram no qu
 sincronização e voltam aqui com o `<!-- id:… -->` preenchido. **Não apague o marcador de id** das
 tarefas que já têm um.
 
-- [ ] Criar o app no Skip com login e papéis de acesso @Primitivo !08/10/2026  <!-- id:e9431482-e860-4567-a7a5-2686aa2fc09a -->
-  > O app “Radar Primitivo” passa a existir no Skip e só abre com login. O Country Manager entra como operador e o administrador tem acesso às configurações.
-  > SPEC-1-001 · CA-1-01, CA-1-02. Prova: testes de acesso e de histórico verdes no projeto de teste.
-  - [ ] Criar o projeto do app no Skip @Primitivo !06/10/2026  <!-- id:b1e92f2a-04ac-42f4-a6db-ecaec10ae7b4 -->
-    > Criar os projetos de produção, de teste e de ensaio de restauração, com o mesmo segredo de supressão. SPEC-1-001 · CA-1-01.
-  - [ ] Cadastrar o Country Manager e o administrador @Primitivo !07/10/2026  <!-- id:e1ebe3ff-e63e-489b-ad40-181920495c85 -->
-    > Cadastrar os dois logins em produção e desligar o cadastro aberto. Usuários de teste existem só no projeto de teste. SPEC-1-001 · CA-1-01.
-  - [ ] Bloquear telas e dados para quem não tem acesso @Primitivo !07/10/2026  <!-- id:9cddfbf9-a0ec-41f0-b032-81f34994695c -->
-    > Quem não está logado não vê nada; o operador não abre a Administração. SPEC-1-001 · CA-1-01.
-  - [ ] Registrar o histórico das ações importantes @Primitivo !08/10/2026  <!-- id:9c0d46c5-ceda-4f24-998b-c0ebf24dc805 -->
-    > Toda ação crítica (ativar perfil, decidir item, contato manual, bloqueio, cópia, consumo de créditos, usuário) gera um registro que não pode ser editado nem apagado. SPEC-1-001 · CA-1-02.
 - [ ] Escolher o primeiro perfil e enviar os critérios de bom cliente @Primitivo !07/10/2026  <!-- id:dcc49939-f29e-46ac-8eba-832b3bf5c9e0 -->
   > Com esses critérios o app dá a nota de cada empresa e decide quem entra na fila. Enviar pelo grupo do WhatsApp, em texto ou documento.
   > SPEC-1-002 · pré-condição do CA-1-08. Checklist: CL-001.

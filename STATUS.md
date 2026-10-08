@@ -5,11 +5,11 @@
 **Estado:** pacote validado e publicado no GitHub, aguardando execução e confirmação dos pré-requisitos.
 
 - 7 SPECs com TDD e 34 critérios de aceite.
-- 59 cards (25 principais + 34 subtarefas), todos com UUIDs do portal.
-- 59 abertos, 0 em andamento e 0 concluídos conforme o arquivo de tasks.
+- 54 cards ativos (24 principais + 30 subtarefas), todos com UUIDs do portal.
+- 54 abertos, 0 em andamento e 0 concluídos na lista ativa. O grupo inicial (5 cards) foi informado como já realizado pelo consultor e retirado; [histórico](06_notas/2026-10-08-task-inicial-ja-realizada.md).
 - Prazos e responsáveis preservados do planejamento aprovado; há prazos de 06/10 e 07/10 anteriores à montagem da pasta. Conferir o andamento antes de reagendar.
 
-**Próxima ação:** conferir os pré-requisitos e selecionar a primeira task elegível em [fase.md](04_fase-atual/fase.md), lendo a SPEC vinculada.
+**Próxima ação:** escolher o primeiro perfil e enviar os critérios de bom cliente; conferir os demais pré-requisitos em [fase.md](04_fase-atual/fase.md), lendo a SPEC vinculada.
 
 Aprovações de ICP, Apollo/teto, fontes, uso dos contatos e baseline permanecem nas tasks correspondentes. Dados reais dependem das proteções e da restauração aprovadas na SPEC-1-001. Critérios, testes e evidências continuam pendentes de execução.
 

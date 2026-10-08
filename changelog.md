@@ -1,5 +1,13 @@
 # Histórico operacional
 
+## 08/10/2026 — Retirada da primeira task já realizada
+
+- A pedido do consultor, retirado da lista ativa o grupo “Criar o app no Skip com login e papéis de acesso”, incluindo quatro subtarefas, pois ele informou que já foi feito.
+- Histórico e UUIDs preservados em [06_notas/2026-10-08-task-inicial-ja-realizada.md](06_notas/2026-10-08-task-inicial-ja-realizada.md).
+- Lista ativa: 24 tasks principais e 30 subtarefas; UUIDs, prazos, responsáveis, status e descrições restantes preservados.
+- Atualizados a SPEC-1-001, o índice e a documentação operacional. Nenhum teste técnico executado nesta atualização.
+
+
 ## 08/10/2026 — Publicação no GitHub
 
 - Pacote operacional publicado no repositório privado `drkgod/projeto-primitivo`, branch `main`, a pedido do consultor.
