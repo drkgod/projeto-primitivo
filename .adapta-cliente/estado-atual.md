@@ -1,21 +1,21 @@
 # Estado atual — Adapta Cliente
 
 - schema_version: adapta-cliente-state/v2
-- task_id: SPEC-1-008-visual-v1 (UUID do portal pendente — card novo sem id)
+- task_id: SPEC-1-008-visual-v1 (UUID do portal pendente)
 - executor: maesthos (Ethos do cliente)
 - owner_informativo: Leonardo (champion — testes e aprovações)
 - spec: 04_fase-atual/specs/spec-1-008-primeira-experiencia-visual.md
 - analise: .adapta-cliente/analises/SPEC-1-008-visual-v1.md
-- etapa: aguardando_autorizacao
-- autorizacao_implementacao: ausente
-- teste_humano: nao_aplicavel
-- verificacao_automatica: pendente
-- aprendizado: pendente
+- etapa: bloqueada (publicação no Skip de teste pendente — plataforma indisponível)
+- autorizacao_implementacao: confirmada 08/10/2026 11:25 BRT — "Sim — pode implementar" (mensagem nova após o relatório)
+- teste_humano: pendente
+- verificacao_automatica: passou — RED confirmado (11 testes, ERR_MODULE_NOT_FOUND) e GREEN 11/11 (node --test); QA do Skip não pôde rodar no 64536 (MCP "manager is closed")
+- aprendizado: capturado:06_notas/aprendizado-continuo/AP-2026-10-08-1200-skip-mcp-manager-closed.md
 - sistema: radar-primitivo
-- skip_projeto: 64528
-- skip_versao: nenhuma
-- skip_publicacao: nao_aplicavel
+- skip_projeto: 64528 (produção, v0.0.4 a823b66 publicada)
+- skip_versao: nenhuma no 64536 — 5/8 arquivos gravados (módulo, testes, fixtures, DemoShell, MeuDia); faltam Perfis.tsx e patch do App.tsx
+- skip_publicacao: falhou:MCP do Skip indisponível ("manager is closed") no projeto de teste após 5 gravações; produção 64528 publicada (a823b66)
 - pendente_github: nao
-- ultima_acao: análise da task SPEC-1-008-visual-v1 concluída (relatório persistido + mapa do sistema); DÚVIDA ao consultor registrada sobre o app com login/papéis relatado como pronto
-- proxima_acao: aguardar autorização para implementar
-- atualizado_em: 2026-10-08T11:25:00-03:00
+- ultima_acao: entrega sincronizada ao GitHub após recuperação da camada MCP (código completo, evidências e governança); publicação no teste 64536 segue pendente da plataforma
+- proxima_acao: aplicar Perfis.tsx + App.tsx e publicar o projeto de teste 64536 quando o MCP do Skip responder
+- atualizado_em: 2026-10-08T12:40:00-03:00

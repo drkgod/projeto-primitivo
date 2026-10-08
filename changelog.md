@@ -1,11 +1,17 @@
 # Histórico operacional
 
-## 08/10/2026 — Projeto Greenexta vinculado como submódulo
+## 08/10/2026 — Task SPEC-1-008-visual-v1 implementada; publicação no teste pendente
 
-- A pedido do consultor, adicionado `LeoMaestro-26/projeto-greenexta-2n35968qi` em `07-sistemas/projeto-greenexta-2n35968qi/`, branch de acompanhamento `main`.
-- Referência inicial do sistema: `599577ef86d93c90f09cf4348110ea2730a0479d`.
-- Registrados `.gitmodules` e instruções de clone/inicialização em `07-sistemas/README.md`.
-- Incorporadas antes da alteração as atualizações remotas do plugin do cliente, sem alterar tasks ou código do sistema.
+- Autorização do champion ("Sim — pode implementar") executada: módulo de estado
+  demonstrativo com TDD (RED confirmado, GREEN 11/11), fixtures, shell e telas Meu dia,
+  Ficha e Perfis; App.tsx com rotas /demo.
+- Evidências em 05_entregas/fase-1/SPEC-1-008/ (red.txt, green.txt, rede.md, skills-ui-ux.md,
+  publicacao.md).
+- Produção 64528 publicada (a823b66) com governança da task.
+- Publicação da demo no teste 64536 PENDENTE: indisponibilidade da camada MCP do Skip
+  ("manager is closed") após 5 arquivos gravados; Perfis.tsx e App.tsx ficaram fora do
+  working tree e serão aplicados na recuperação.
+- Nenhum teste humano solicitado sobre versão não publicada (regra da casa).
 
 ## 08/10/2026 — Configuração do plugin concluída e análise da primeira task
 
