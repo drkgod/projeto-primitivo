@@ -1,0 +1,2 @@
+- 2026-10-08T12:00:00-03:00 · task SPEC-1-008-visual-v1 · capturado:06_notas/aprendizado-continuo/AP-2026-10-08-1200-skip-mcp-manager-closed.md
+- 2026-10-09T15:25:00-03:00 · task SPEC-1-008-visual-v1 · capturado:06_notas/aprendizado-continuo/AP-2026-10-09-1525-aceite-visual.md
