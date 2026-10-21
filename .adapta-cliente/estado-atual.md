@@ -1,7 +1,7 @@
 # Estado atual — Adapta Cliente
 
 - schema_version: adapta-cliente-state/v2
-- task_id: SPEC-1-008-visual-v1 (UUID do portal pendente)
+- task_id: SPEC-1-008-visual-v1 (UUID do portal: 965527d7-4fdd-43a0-b3ff-96fe805911c3)
 - executor: maesthos (Ethos do cliente)
 - owner_informativo: Leonardo (champion — testes e aprovações)
 - spec: 04_fase-atual/specs/spec-1-008-primeira-experiencia-visual.md

@@ -5,7 +5,7 @@
 **Estado:** entrega visual aprovada; encaminhamento das tarefas técnicas corrigido para continuidade pelo Maestro. Nenhuma nova execução técnica observada nesta revisão.
 
 - Último avanço de produto registrado: SPEC-1-008 aprovada pelo Leonardo em 09/10/2026 (CL-005).
-- 57 cards ativos (27 principais + 30 subtarefas): 54 abertos, 0 em andamento e 3 concluídos. Os três concluídos correspondem à entrega visual; 54 UUIDs existentes preservados e três cards visuais ainda sem UUID do portal.
+- 57 cards ativos (27 principais + 30 subtarefas): 54 abertos, 0 em andamento e 3 concluídos. Os três concluídos correspondem à entrega visual; 57 UUIDs preservados, incluindo os três cards visuais conferidos na fonte canônica local.
 - O grupo inicial de criação do app/login/papéis/histórico foi retirado por relato do consultor. Há divergência com a análise do cliente, que não localizou essa base: conferir o sistema atual e corrigir o recorte da SPEC-1-001 em teste antes da integração dos Perfis.
 - Prazos originais preservados. Esta revisão não confirma recebimento de critérios, contratação da Apollo, aprovação de fontes, política de contatos ou baseline.
 

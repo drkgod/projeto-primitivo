@@ -45,13 +45,13 @@ Marque `[x]` para concluir e adicione linhas novas à vontade: elas entram no qu
 sincronização e voltam aqui com o `<!-- id:… -->` preenchido. **Não apague o marcador de id** das
 tarefas que já têm um.
 
-- [x] Criar a primeira versão visual do Radar Primitivo @Primitivo
+- [x] Criar a primeira versão visual do Radar Primitivo @Primitivo  <!-- id:965527d7-4fdd-43a0-b3ff-96fe805911c3 -->
   > Começar por uma versão navegável de Meu dia, Ficha da empresa e Perfis de busca no app existente, com dados fictícios e ações simuladas. Reaproveitar login e componentes já prontos; não depende de ICP real nem de Apollo.
   > O Maestro deve localizar, ler e aplicar as skills de UI/UX já instaladas no ambiente e registrar quais usou e as decisões de design. Se nenhuma estiver disponível, informar o impedimento antes de implementar. SPEC-1-008 · CA-1-35, CA-1-36. Prova: registro das skills, testes RED/GREEN do estado da demo e gravação das três telas navegáveis.
-- [x] Testar a navegação e o visual no celular @Primitivo
+- [x] Testar a navegação e o visual no celular @Primitivo  <!-- id:58129fcc-60b7-4abd-a487-9b8301079b5a -->
   > Após a primeira versão visual, testar desktop 1440×900 e celular 375×812, teclado, foco, rótulos, estados vazio/erro/carregando e recuperação. Conferir ações simuladas e reset; corrigir problemas sem alterar backend, permissões ou produção.
   > SPEC-1-008 · CA-1-36, CA-1-37. Prova: capturas desktop/mobile, roteiro de regressão visual e testes verdes. A task para ao final da revisão, antes do aceite humano.
-- [x] Validar o visual do app com o Country Manager @Primitivo
+- [x] Validar o visual do app com o Country Manager @Primitivo  <!-- id:25619941-2494-489c-963d-84cd1af86445 -->
   > Apresentar a versão revisada ao Leonardo: abrir fila, entender a prioridade, abrir ficha, aprovar/desfazer, adiar e navegar entre perfis; repetir no celular e registrar o que falta, sobra ou mudaria. Fazer os ajustes visuais solicitados e obter aprovação explícita.
   > SPEC-1-008 · CA-1-38 · CL-005. Prova: roteiro e aceite-visual.md. A aprovação visual não encerra a Fase 1 nem comprova integrações; a jornada real permanece na SPEC-1-007.
 - [ ] Montar a tela de perfis de busca @Primitivo !08/10/2026  <!-- id:d746b918-362a-4fbb-8763-0f0e4b634eb1 -->
