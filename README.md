@@ -8,12 +8,13 @@ O objetivo é configurar o perfil de cliente, descobrir empresas por fontes auto
 
 ## Por onde começar
 
-A primeira entrega é uma versão visual navegável de Meu dia, Ficha da empresa e Perfis de busca, com dados fictícios. O Maestro aplica as skills de UI/UX já instaladas, registra seu uso e demonstra desktop/celular antes da conexão com dados reais. Veja a SPEC-1-008.
+A primeira entrega visual foi aprovada pelo Leonardo em 09/10/2026 (CL-005). O próximo recorte técnico é montar e testar os Perfis de busca (SPEC-1-002), conferindo antes login, papéis e auditoria da SPEC-1-001 no sistema atual.
 
 1. Leia [STATUS.md](STATUS.md).
 2. Abra [as tasks da fase atual](04_fase-atual/fase.md): 27 tasks principais e 30 subtarefas. Os 54 cards existentes mantêm seus metadados; os três cards visuais novos aguardam UUID do portal e definição de prazo.
 3. Consulte [o índice das 8 SPECs](04_fase-atual/specs/00-INDICE.md) e a SPEC da task antes de alterar o app.
-4. Execute uma task por vez, rode as provas da SPEC e registre as evidências em '05_entregas/fase-1/SPEC-1-00N/'. Marque a task como concluída somente após a prova e o teste humano aplicável.
+4. O Maestro executa uma task técnica por vez, roda as provas da SPEC e registra as evidências em '05_entregas/fase-1/SPEC-1-00N/'. Marca a task como concluída somente após a prova e o teste humano aplicável.
+5. Após concluir, o Maestro seleciona a próxima task executável pelas dependências e continua, sem pedir nova escolha ou liberação do consultor para cada card. Pendências de informações e decisões são tratadas com Leonardo no card correspondente; a implementação prevista nas SPECs continua com fixtures e Apollo simulada no ambiente de teste. As condições para dados reais e os aceites humanos permanecem obrigatórios.
 
 ## Estrutura
 

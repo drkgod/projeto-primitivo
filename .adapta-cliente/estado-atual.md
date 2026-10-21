@@ -17,5 +17,7 @@
 - skip_publicacao: 64536 publicada em 08/10/2026 16:55 UTC — https://radar-primitivo-teste-3a85f.goskip.app
 - pendente_github: nao
 - ultima_acao: aceite registrado, quadro atualizado (3 cards [x]), produção 64528 v0.0.6 publicada e sincronização concluída — task concluída
-- proxima_acao: aguardar próxima task do consultor ou instrução do champion (nenhuma task aberta automaticamente)
+- proxima_acao: Maestro confere login, papéis e auditoria da SPEC-1-001 e executa Montar a tela de perfis de busca (d746b918-362a-4fbb-8763-0f0e4b634eb1, SPEC-1-002) com fixtures no projeto de teste; após as provas, seleciona a próxima task executável pelas dependências, sem nova escolha ou liberação do consultor para cada card
+- encaminhamento_revisado_em: 2026-10-21 — orientação do consultor para continuidade técnica pelo Maestro; entradas de negócio são tratadas com Leonardo
+- proxima_task_execucao: não iniciada nesta revisão documental; etapa, autorização e testes acima continuam referentes à SPEC-1-008-visual-v1 concluída
 - atualizado_em: 2026-10-09T15:30:00-03:00

@@ -1,5 +1,13 @@
 # Histórico operacional
 
+## 21/10/2026 — Revisão das tarefas e continuidade pelo Maestro
+
+- Orientação do consultor: o Maestro deve conduzir a execução da Fase 1 sem aguardar que o consultor escolha ou libere cada próxima task.
+- Separadas, nas descrições e no encaminhamento, as entradas do Leonardo e a construção técnica com fixtures/Apollo simulada, já permitida pelas SPECs. Decisões de negócio, consumo real, dados reais e aceites humanos mantêm suas condições.
+- Próxima tarefa técnica: Montar a tela de perfis de busca (d746b918-362a-4fbb-8763-0f0e4b634eb1, SPEC-1-002), com conferência prévia da base de acesso/auditoria da SPEC-1-001. Não assumir que a base existe: o relato de conclusão e a análise de 08/10 divergem.
+- Reconciliados os três cards visuais com o aceite CL-005 de 09/10 e com o estado concluído; lista ativa: 57 cards, 54 abertos, 3 concluídos. IDs, responsáveis, prazos e demais status preservados.
+- Revisão documental e de encaminhamento: nenhuma implementação, novo teste, recebimento de insumos ou retomada de sessão no Skip declarados.
+
 ## 09/10/2026 — SPEC-1-008 concluída com aceite do champion
 
 - Leonardo aprovou a demo publicada (CL-005, "Aprovado" em 15:25 BRT) — aceite registrado em

@@ -139,4 +139,4 @@ O Country Manager abre “Perfis de busca”, vê os dois perfis, preenche o esc
 
 | Data | Origem do sinal | Micro-spec/task | Motivo |
 |---|---|---|---|
-| | | | |
+| 21/10/2026 | Orientação do consultor sobre continuidade pelo Maestro | Montar a tela de perfis de busca — d746b918-362a-4fbb-8763-0f0e4b634eb1 | Executar CA-1-05/06 e CA-1-07 com perfil fictício após conferir a base de acesso; não aguardar ICP real nem chave Apollo. CA-1-08 continua dependente das entradas e confirmação do Leonardo. |
