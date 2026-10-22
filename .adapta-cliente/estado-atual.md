@@ -1,23 +1,19 @@
 # Estado atual — Adapta Cliente
 
-- schema_version: adapta-cliente-state/v2
-- task_id: SPEC-1-008-visual-v1 (UUID do portal: 965527d7-4fdd-43a0-b3ff-96fe805911c3)
+- schema_version: adapta-cliente-state/v3
+- task_id: SPEC-1-002-perfis-busca (d746b918 + 9e081d10 + ccc168e0 concluídas; bba1553f em_espera)
 - executor: maesthos (Ethos do cliente)
-- owner_informativo: Leonardo (champion — testes e aprovações)
-- spec: 04_fase-atual/specs/spec-1-008-primeira-experiencia-visual.md
-- analise: .adapta-cliente/analises/SPEC-1-008-visual-v1.md
-- etapa: concluida
-- autorizacao_implementacao: confirmada 08/10/2026 11:25 BRT — "Sim — pode implementar" (mensagem nova após o relatório)
-- teste_humano: aprovado em 09/10/2026 15:25 BRT — "Aprovado" (CL-005; aceite em 05_entregas/fase-1/SPEC-1-008/aceite-visual.md)
-- verificacao_automatica: passou — RED confirmado e GREEN 11/11 (node --test); QA do Skip integral verde no 64536 (v0.0.2 4aa2ec4)
-- aprendizado: capturado:06_notas/aprendizado-continuo/AP-2026-10-09-1525-aceite-visual.md
+- owner_informativo: Leonardo (champion)
+- spec: 04_fase-atual/specs/spec-1-002-perfis-de-busca.md
+- analise: .adapta-cliente/analises/SPEC-1-002-perfis-busca.md (+ ICP-v1-validacao.md)
+- etapa: aguardando_resposta (parada com perguntas ao champion)
+- ciclo: continuo (plugin 0.8.1) — 3 tasks entregues em aguardando_teste
+- aguardando_teste: tela /perfis no projeto de teste (v0.0.7 a4a9e73) e na produção (e28d4c1)
+- em_espera: bba1553f — ativação do perfil real depende do teto de créditos Apollo (decisão do champion) e de acesso de login na produção
+- perguntas_na_parada: (1) teto mensal de créditos Apollo; (2) como criar o usuário de login na produção; (3) confirmar interpretação da blacklist (relacionamento direto fora da fila)
+- verificacao_automatica: passou — GREEN 8/8 (perfis.test.mjs, URL interna do PB); QA Skip verde em 64536 (v0.0.7 a4a9e73) e produção (v0.0.7 e28d4c1)
+- aprendizado: capturado na parada (3 sinais: URL interna do PB, JSVM top-level, lista filtra)
 - sistema: radar-primitivo
-- skip_projeto: 64528 (produção, v0.0.6 44d6992 publicada)
-- skip_versao: 64536 v0.0.2 (4aa2ec4) — demo completa com os 8 arquivos aprovados
-- skip_publicacao: 64536 publicada em 08/10/2026 16:55 UTC — https://radar-primitivo-teste-3a85f.goskip.app
+- skip_projeto: 64528 (produção) · 64536 (teste) · 64537 (restauro)
 - pendente_github: nao
-- ultima_acao: aceite registrado, quadro atualizado (3 cards [x]), produção 64528 v0.0.6 publicada e sincronização concluída — task concluída
-- proxima_acao: Maestro confere login, papéis e auditoria da SPEC-1-001 e executa Montar a tela de perfis de busca (d746b918-362a-4fbb-8763-0f0e4b634eb1, SPEC-1-002) com fixtures no projeto de teste; após as provas, seleciona a próxima task executável pelas dependências, sem nova escolha ou liberação do consultor para cada card
-- encaminhamento_revisado_em: 2026-10-21 — orientação do consultor para continuidade técnica pelo Maestro; entradas de negócio são tratadas com Leonardo
-- proxima_task_execucao: não iniciada nesta revisão documental; etapa, autorização e testes acima continuam referentes à SPEC-1-008-visual-v1 concluída
-- atualizado_em: 2026-10-09T15:30:00-03:00
+- atualizado_em: 2026-10-22T16:10:00-03:00

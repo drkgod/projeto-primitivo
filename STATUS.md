@@ -1,20 +1,17 @@
 # Status operacional — Radar Primitivo
 
-**Atualizado em:** 21/10/2026  
+**Atualizado em:** 22/10/2026  
 **Fase atual:** 1 — Descoberta até a fila diária  
-**Estado:** entrega visual aprovada; encaminhamento das tarefas técnicas corrigido para continuidade pelo Maestro. Nenhuma nova execução técnica observada nesta revisão.
+**Estado:** perfis de busca construídos e provados; aguardando decisões do champion para ativar o perfil real.
 
-- Último avanço de produto registrado: SPEC-1-008 aprovada pelo Leonardo em 09/10/2026 (CL-005).
-- 57 cards ativos (27 principais + 30 subtarefas): 54 abertos, 0 em andamento e 3 concluídos. Os três concluídos correspondem à entrega visual; 57 UUIDs preservados, incluindo os três cards visuais conferidos na fonte canônica local.
-- O grupo inicial de criação do app/login/papéis/histórico foi retirado por relato do consultor. Há divergência com a análise do cliente, que não localizou essa base: conferir o sistema atual e corrigir o recorte da SPEC-1-001 em teste antes da integração dos Perfis.
-- Prazos originais preservados. Esta revisão não confirma recebimento de critérios, contratação da Apollo, aprovação de fontes, política de contatos ou baseline.
+- 8 SPECs com TDD e 38 critérios de aceite. SPEC-1-008 concluída e aprovada (CL-005, 09/10). SPEC-1-002: tela, coleções e hooks no ar (teste e produção), TDD GREEN 8/8.
+- Lista ativa: 50 abertos, 0 em andamento, 12 concluídos (SPEC-1-008 e entrada da SPEC-1-002 concluídas).
+- ICP v1 validado pelo champion (22/10): distribuidores regionais como ICP inicial; matriz v1 e corte ≥6 aprovados; bons/maus exemplos e blacklist registrados.
+- Pendências do champion: teto de créditos Apollo (SPEC-1-003), acesso de login na produção (SPEC-1-001) e confirmação da interpretação da blacklist.
+- Prazos e responsáveis preservados do planejamento aprovado; há prazos de 06/10 a 09/10 anteriores à execução. Conferir o andamento antes de reagendar.
 
-**Próxima ação técnica do Maestro:** conferir a base de acesso e executar **Montar a tela de perfis de busca**, ID `d746b918-362a-4fbb-8763-0f0e4b634eb1`, SPEC-1-002, com perfis fictícios no projeto de teste. Após as provas, seguir para a próxima task executável pelas dependências, uma por vez.
+**Próxima ação:** com o teto da Apollo definido e o login na produção resolvido, preencher o perfil de distribuidores com o ICP v1 e ativar (task bba1553f, CA-1-08). A jornada real com dados permanece na SPEC-1-007.
 
-**Entradas do Leonardo:** escolha e critérios do ICP; plano/API, teto e chave da Apollo; aprovação das fontes e das regras de uso dos contatos; baseline e capacidade diária. O Maestro consulta os materiais autorizados, solicita apenas o que falta e registra as pendências nos cards. Esses itens bloqueiam os usos reais correspondentes; não bloqueiam a construção e os testes simulados previstos nas SPECs.
-
-A aprovação visual não encerra a Fase 1 nem comprova integrações. Dados reais, consumo de créditos e aceite final permanecem condicionados às provas e decisões das SPECs. Não há erro técnico ativo registrado após a recuperação do Skip em 08/10; o encaminhamento anterior era aguardar nova instrução, sem abrir a próxima task.
-
-**Execução:** revisar arquivos e publicar esta orientação no GitHub não inicia, por si só, uma sessão do Maestro no Skip.
+Aprovações de Apollo/teto, fontes, uso dos contatos e baseline permanecem nas tasks correspondentes. Dados reais dependem das proteções e da restauração aprovadas na SPEC-1-001. A aprovação visual não encerra a Fase 1 nem comprova integrações.
 
 **Repositório:** [drkgod/projeto-primitivo](https://github.com/drkgod/projeto-primitivo), privado, branch `main`.

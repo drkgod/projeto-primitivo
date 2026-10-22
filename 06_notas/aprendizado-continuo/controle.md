@@ -1,2 +1,5 @@
 - 2026-10-08T12:00:00-03:00 · task SPEC-1-008-visual-v1 · capturado:06_notas/aprendizado-continuo/AP-2026-10-08-1200-skip-mcp-manager-closed.md
 - 2026-10-09T15:25:00-03:00 · task SPEC-1-008-visual-v1 · capturado:06_notas/aprendizado-continuo/AP-2026-10-09-1525-aceite-visual.md
+- 2026-10-22T14:00:00-03:00 · task SPEC-1-002-perfis-busca · capturado:06_notas/aprendizado-continuo/AP-2026-10-22-1400-url-interna-pocketbase.md
+- 2026-10-22T14:15:00-03:00 · task SPEC-1-002-perfis-busca · capturado:06_notas/aprendizado-continuo/AP-2026-10-22-1415-jsvm-top-level.md
+- 2026-10-22T14:30:00-03:00 · task SPEC-1-002-perfis-busca · capturado:06_notas/aprendizado-continuo/AP-2026-10-22-1430-lista-filtra.md

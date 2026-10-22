@@ -1,0 +1,14 @@
+✔ usuário anônimo não vê nenhum perfil (regra de acesso filtra) (150.508682ms)
+✔ ativação de perfil incompleto é recusada com a lista de faltantes (CA-1-06) (25.027246ms)
+✔ perfil completo ativa, grava versão e auditoria (CA-1-05) (41.804921ms)
+✔ só uma versão ativa por rota (RN-03 · CA-1-07) (28.908377ms)
+✔ editar perfil ativo pela API é recusado (CA-1-07) (7.170291ms)
+✔ ativar perfil já ativo não cria versão nova (12.589786ms)
+✔ reativar versão anterior funciona e registra motivo (CA-1-07) (25.491515ms)
+✔ rotas são independentes (CA-1-07) (25.492048ms)
+ℹ tests 8
+ℹ pass 8
+ℹ fail 0
+
+GREEN: hooks ativa-perfil-busca + bloqueia-edicao-perfil-ativo aplicados no 64536 (v0.0.5+).
+Comando: RADAR_URL=<url-interna-do-64536> node --test 07-sistemas/radar-primitivo/testes/perfis.test.mjs

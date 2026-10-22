@@ -1,0 +1,14 @@
+✖ usuário anônimo não lista perfis (139.389442ms)
+✖ ativação de perfil incompleto é recusada com a lista de faltantes (CA-1-06) (25.631022ms)
+✖ perfil completo ativa, grava versão e auditoria (CA-1-05) (43.592674ms)
+✖ só uma versão ativa por rota (RN-03 · CA-1-07) (33.245747ms)
+✖ editar perfil ativo pela API é recusado (CA-1-07) (8.587584ms)
+✖ ativar perfil já ativo não cria versão nova (9.634353ms)
+✖ reativar versão anterior funciona e registra motivo (CA-1-07) (25.714811ms)
+✔ rotas são independentes (CA-1-07) (57.781852ms)
+ℹ tests 8
+ℹ pass 1
+ℹ fail 7
+
+RED: hooks ausentes (coleções e seeds aplicados; regras de negócio não implementadas).
+Comando: RADAR_URL=<url-interna-do-64536> node --test 07-sistemas/radar-primitivo/testes/perfis.test.mjs
