@@ -1,5 +1,14 @@
 # Histórico operacional
 
+## 22/10/2026 (18:15) — Aceite do champion fecha a SPEC-1-002
+
+- Leonardo confirmou o resumo do perfil ativo: "Perfil confere" (18:15 BRT) — CA-1-08 atendido.
+- Evidência registrada em 05_entregas/fase-1/SPEC-1-002/aceite-resumo.md (mensagem + hora +
+  referência à prova visual e à v2 sem UniAgro).
+- SPEC-1-002 concluída: coleções, hooks, telas, TDD GREEN 8/8, perfil real ativo (v2) e aceite.
+- O perfil ativo comanda a busca diária (SPEC-1-004) quando a Apollo for conectada
+  (SPEC-1-003 — bloqueada pela chave; teto 500/mês já decidido).
+
 ## 22/10/2026 (18:08) — Ajuste do champion: UniAgro → Grupo Modarc (v2 do perfil ativada)
 
 - Correção de identidade (voz do Leonardo): a razão social sempre foi Modarc; "UniAgro" é o nome
@@ -27,7 +36,6 @@
 - Ativação pela API em nome do Leonardo: hook RN-01 validou, perfis_versoes gravou 1 linha
   (snapshot completo), indústrias segue rascunho (independência).
 - Prova visual: /perfis mostra Distribuidores regionais ATIVO — resumo-perfil-ativo-producao.png.
-- CA-1-08 pendente do aceite humano: Leonardo confere o resumo e responde "perfil confere".
 
 ## 22/10/2026 — SPEC-1-002: perfis de busca construídos e provados (ciclo contínuo)
 
