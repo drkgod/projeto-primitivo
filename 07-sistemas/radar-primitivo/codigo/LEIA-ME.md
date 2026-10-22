@@ -1,13 +1,9 @@
 # Espelho de código — cópia de consulta
 
-A fonte executável é o Skip. Estado em 08/10/2026, task SPEC-1-008-visual-v1:
-- GRAVADOS no projeto de teste (64536): `ui/visual-demo-state.mjs`, `testes/visual-demo.test.mjs`,
-  `src/demo/fixtures.ts`, `src/demo/DemoShell.tsx`, `src/pages/demo/MeuDia.tsx`.
-- PENDENTES de aplicação no 64536 (MCP indisponível): `src/pages/demo/Perfis.tsx` e o patch de
-  `src/App.tsx` — o conteúdo aqui é o aprovado na análise, pronto para aplicar e publicar.
+A fonte executável é o Skip. Estado em 22/10/2026, task SPEC-1-002-perfis-busca:
+- 64536 (teste): v0.0.7 a4a9e73 publicada — https://radar-primitivo-teste-3a85f.goskip.app/perfis
+- 64528 (produção): v0.0.7 e28d4c1 publicada — https://projeto-greenexta-d13f9.goskip.app/perfis
+- Migrações 0001/0002/0004 nos dois ambientes; 0003 (usuário de teste) só no 64536.
+- App.tsx e Layout.tsx aqui são os da PRODUÇÃO (sem a demo; a demo do 64536 adiciona as rotas /demo).
+- TDD: GREEN 8/8 (testes/perfis.test.mjs contra a URL interna do PocketBase do 64536).
 - Nunca edite o espelho para mudar o sistema.
-
-## Rotas da demo (App.tsx)
-- `/demo` → Meu dia (fila do dia)
-- `/demo/empresa/:id` → Ficha da empresa
-- `/demo/perfis` → Perfis de busca

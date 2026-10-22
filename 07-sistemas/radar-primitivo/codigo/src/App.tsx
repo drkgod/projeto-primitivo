@@ -6,10 +6,8 @@ import { TooltipProvider } from '@/components/ui/tooltip'
 import Index from './pages/Index'
 import NotFound from './pages/NotFound'
 import Layout from './components/Layout'
-import DemoShell from './demo/DemoShell'
-import MeuDia from './pages/demo/MeuDia'
-import FichaEmpresa from './pages/demo/FichaEmpresa'
-import Perfis from './pages/demo/Perfis'
+import Perfis from './pages/Perfis'
+import PerfilEditar from './pages/PerfilEditar'
 
 // ONLY IMPORT AND RENDER WORKING PAGES, NEVER ADD PLACEHOLDER COMPONENTS OR PAGES IN THIS FILE
 // AVOID REMOVING ANY CONTEXT PROVIDERS FROM THIS FILE (e.g. TooltipProvider, Toaster, Sonner)
@@ -23,11 +21,8 @@ const App = () => (
         <Route element={<Layout />}>
           <Route path="/" element={<Index />} />
           {/* ADD ALL CUSTOM ROUTES MUST BE ADDED HERE */}
-          <Route path="/demo" element={<DemoShell />}>
-            <Route index element={<MeuDia />} />
-            <Route path="empresa/:id" element={<FichaEmpresa />} />
-            <Route path="perfis" element={<Perfis />} />
-          </Route>
+          <Route path="/perfis" element={<Perfis />} />
+          <Route path="/perfis/:id" element={<PerfilEditar />} />
         </Route>
         <Route path="*" element={<NotFound />} />
       </Routes>
