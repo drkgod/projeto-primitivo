@@ -17,7 +17,7 @@ Data: 22/10/2026 (respostas do formulário enviadas pelo Leonardo)
 
 1. **Primeiro perfil = Distribuidores regionais** (opção recomendada, pré-marcada no formulário; coerente com os exemplos informados — todos distribuidores/redistribuidores).
 2. **Matriz v1 e corte ≥ 6 aprovados** (switches pré-marcados; nenhuma objeção registrada).
-3. **Interpretação da blacklist**: as empresas listadas são relacionamento comercial direto já existente (Agromol em negociação, Modarc caso antigo, Goplan/PMX/Dedeagro contatos atuais) — por isso não entram na FILA DE PROSPECÇÃO (não consomem créditos Apollo), mas continuam servindo como BONS EXEMPLOS de calibragem da nota. A nota delas é calculada; a fila é que as exclui. Confirmar com o champion na próxima parada se a intenção era essa.
+3. **Blacklist — CORRIGIDA pelo champion (22/10, por voz)**: Leonardo NÃO tem clientes hoje; está em prospecção. As empresas listadas (Goplan, Modarc, Dedeagro, PMX, Agromol; UniAgro no radar) são PROSPECTS que ele mesmo está prospectando manualmente — por isso ficam FORA DA FILA DE DESCOBERTA AUTOMÁTICA (não duplicam trabalho nem consomem créditos Apollo), mas continuam servindo como BONS EXEMPLOS de calibragem da nota. Os MAUS EXEMPLOS são empresas em recuperação judicial/problema de caixa — critério de risco financeiro (impeditivo situacao_ativa), não relacionamento prévio.
 
 ## Ponto estratégico registrado (posição, não decisão)
 
@@ -26,4 +26,4 @@ Com todas as regiões e culturas marcadas, região e cultura deixam de filtrar �
 ## Consequência no quadro
 
 - Tasks de entrada da SPEC-1-002 cumpridas pelo cliente → marcadas [x] no fase.md.
-- Tela de perfis construída e provada (22/10); próxima: preencher o perfil de distribuidores com o ICP v1 e ativar (bba1553f) — depende do teto Apollo e do login na produção.
+- Perfil real preenchido com o ICP v1 e ATIVO na produção (22/10, v0.0.8); aceite humano do resumo pendente (CA-1-08).

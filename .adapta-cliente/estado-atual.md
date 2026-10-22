@@ -1,19 +1,15 @@
 # Estado atual — Adapta Cliente
 
 - schema_version: adapta-cliente-state/v3
-- task_id: SPEC-1-002-perfis-busca (d746b918 + 9e081d10 + ccc168e0 concluídas; bba1553f em_espera)
+- task_id: bba1553f (SPEC-1-002) — perfil real ATIVO na produção; em_andamento (aguarda aceite humano)
 - executor: maesthos (Ethos do cliente)
 - owner_informativo: Leonardo (champion)
-- spec: 04_fase-atual/specs/spec-1-002-perfis-de-busca.md
-- analise: .adapta-cliente/analises/SPEC-1-002-perfis-busca.md (+ ICP-v1-validacao.md)
-- etapa: aguardando_resposta (parada com perguntas ao champion)
-- ciclo: continuo (plugin 0.8.1) — 3 tasks entregues em aguardando_teste
-- aguardando_teste: tela /perfis no projeto de teste (v0.0.7 a4a9e73) e na produção (e28d4c1)
-- em_espera: bba1553f — ativação do perfil real depende do teto de créditos Apollo (decisão do champion) e de acesso de login na produção
-- perguntas_na_parada: (1) teto mensal de créditos Apollo; (2) como criar o usuário de login na produção; (3) confirmar interpretação da blacklist (relacionamento direto fora da fila)
-- verificacao_automatica: passou — GREEN 8/8 (perfis.test.mjs, URL interna do PB); QA Skip verde em 64536 (v0.0.7 a4a9e73) e produção (v0.0.7 e28d4c1)
-- aprendizado: capturado na parada (3 sinais: URL interna do PB, JSVM top-level, lista filtra)
-- sistema: radar-primitivo
-- skip_projeto: 64528 (produção) · 64536 (teste) · 64537 (restauro)
+- etapa: aguardando_aceite_humano — Leonardo confere o resumo do perfil e responde "perfil confere" (CA-1-08)
+- decisoes_do_champion_22_10: teto Apollo 500/mês; primeiro acesso com senha provisória (RADAR_LEO_TEMP_PASSWORD); blacklist = prospects ativos fora da fila (sem clientes hoje); maus exemplos = recuperação judicial; módulos industriais depois ("dois casos")
+- producao: 64528 v0.0.8 (d2d6320) — usuário do Leonardo + perfil distribuidores preenchido (ICP v1) + ativo
+- auditoria: perfis_versoes 1 linha (Ativação da versão 1, snapshot completo)
+- prova_visual: 05_entregas/fase-1/SPEC-1-002/resumo-perfil-ativo-producao.png
+- premissas_registradas: pesos ×2 (contrato de inteiros; corte 60% inalterado); capacidade provisória 1/dia·5/sem (meta KickOff) até medição real (task 417da661)
+- proximo_ciclo: (1) aceite do resumo → fecha CA-1-08; (2) módulos industriais (2 casos) quando o Leonardo trouxer os nomes; (3) SPEC-1-003 (Apollo) segue bloqueada pela chave — teto já decidido
 - pendente_github: nao
-- atualizado_em: 2026-10-22T16:10:00-03:00
+- atualizado_em: 2026-10-22T17:20:00-03:00
