@@ -2,10 +2,11 @@
 
 **Atualizado em:** 22/10/2026  
 **Fase atual:** 1 — Descoberta até a fila diária  
-**Estado:** perfil real de distribuidores ATIVO na produção; aguardando aceite do resumo pelo champion (CA-1-08).
+**Estado:** perfil real de distribuidores ATIVO na produção (versão 2, sem UniAgro — ver regra Modarc no changelog); aguardando aceite do resumo pelo champion (CA-1-08).
 
 - 8 SPECs com TDD e 38 critérios de aceite. SPEC-1-008 concluída e aprovada (CL-005, 09/10). SPEC-1-002: tela, coleções, hooks e perfil real no ar (teste e produção), TDD GREEN 8/8.
-- ICP v1 validado (22/10) e codificado no perfil: matriz 2/2/2/1/1/1/0,5/0,5 (×2 no contrato), corte ≥6 = 60%, desqualificadores (recuperação judicial como impeditivo), 6 prospects fora da fila.
+- ICP v1 validado (22/10) e codificado no perfil: matriz 2/2/2/1/1/1/0,5/0,5 (×2 no contrato), corte ≥6 = 60%, desqualificadores (recuperação judicial como impeditivo), 5 prospects fora da fila (v2).
+- Regra de identidade (22/10): UniAgro é o nome antigo — razão social sempre foi Modarc, hoje Grupo Modarc (UniAgro é uma das empresas do grupo). Materiais antigos que citam UniAgro se referem à Modarc.
 - Decisões do champion (22/10): teto Apollo 500 créditos/mês; primeiro acesso com senha provisória; módulos industriais para depois (dois casos).
 - Pendências do champion: aceite do resumo do perfil (CA-1-08); chave da Apollo (SPEC-1-003); medição da capacidade real (task 417da661); login/papéis com o consultor (SPEC-1-001).
 
