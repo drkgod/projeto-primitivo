@@ -1,12 +1,15 @@
 # Estado atual — Adapta Cliente
 
 - schema_version: adapta-cliente-state/v3
-- task_id: SPEC-1-002-perfis-busca — CONCLUÍDA (22/10/2026, aceite "Perfil confere" 18:15 BRT)
+- task_id: SPEC-1-004-fundacao-descoberta — GREEN no teste (em_andamento; rotina real aguarda aprovação da fonte)
 - executor: maesthos (Ethos do cliente)
 - owner_informativo: Leonardo (champion)
-- etapa: concluida — CA-1-05/06/07/08 atendidos; evidências em 05_entregas/fase-1/SPEC-1-002/
-- estado_do_sistema: perfil "Distribuidores regionais" ATIVO (v2, 6wcpln8wcsfx5d4) na produção 64528 (v0.0.8 d2d6320); v1 inativa com auditoria; indústrias em rascunho
-- decisões_registradas: teto Apollo 500/mês; primeiro acesso com senha provisória (RADAR_LEO_TEMP_PASSWORD — trocar no primeiro login); blacklist = prospects ativos fora da fila; maus exemplos = recuperação judicial (impeditivo); UniAgro = nome antigo da Modarc (Grupo Modarc)
-- proximo_ciclo: (1) módulos industriais (2 casos) quando o Leonardo trouxer os nomes; (2) SPEC-1-003 (Apollo) bloqueada pela chave — teto já decidido; (3) task 417da661 (medir capacidade real) com o Leonardo; (4) login/papéis com o consultor (SPEC-1-001)
+- decisao_apollo_19_01: ADIADA — aguarda assessor; não está no orçamento do momento; app em MODO DE SIMULAÇÃO; quando liberar: chave → busca real → validação → fila
+- capacidade: CONFIRMADA pelo champion (1/dia · 5/sem)
+- login: Leonardo fará com a senha provisória e avisa se algo falhar
+- modulos_industriais: após a Fase 1 completa (como combinado)
+- SPEC-1-002: CONCLUÍDA (aceite 18:15)
+- SPEC-1-004: fundação no teste 64536 (v0.0.12) — coleções, fontes não aprovadas, hook de lote, GREEN 4/4, suíte 23/23
+- proximo_ciclo: (1) aprovação da fonte SIPEAGRO (task 8f422530 — champion decide URL/termo de uso); (2) telas Fontes/execuções + revisão de fusões + ficha; (3) planilha/manual com motivo; (4) rotina agendada só após aprovação
 - pendente_github: nao
-- atualizado_em: 2026-10-22T18:20:00-03:00
+- atualizado_em: 2026-10-22T19:35:00-03:00

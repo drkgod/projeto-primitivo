@@ -1,0 +1,14 @@
+ℹ tests 23
+ℹ pass 23
+ℹ fail 0
+
+SUÍTE COMPLETA (22/10/2026, 19:30): descoberta 4 + perfis 8 + demo 11 — sem regressão.
+Comando: RADAR_URL=<url-interna-do-64536> node --test 07-sistemas/radar-primitivo/testes/
+
+Detalhe da descoberta (descoberta-green.txt):
+✔ CA-1-16: CNPJ mascarado fica como veio em cnpj_mascarado; cnpj fica vazio
+✔ CA-1-14/15: 4 novas, 1 consolidada com 2 origens, 1 revisão, 2 inválidas com motivo
+✔ CA-1-17: rodar o mesmo lote duas vezes não duplica empresas nem origens
+✔ RN-06: linhas inválidas vão para exceções com motivo
+
+RED anterior (antes do hook): 4/4 falhando (coleções existiam, regra de negócio não).
