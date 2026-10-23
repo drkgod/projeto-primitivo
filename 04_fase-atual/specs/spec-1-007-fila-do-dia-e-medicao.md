@@ -1,5 +1,23 @@
 # SPEC-1-007 — Fila do dia, decisões e medição inicial
 
+<!-- inicio-comunicacao-leonardo:2026-10-23 -->
+## Explicação para Leonardo — Entregar uma lista diária que caiba na rotina
+
+**O que você vai receber:** Leonardo deve abrir o app, entender a indicação e decidir qual empresa trabalhar, sem uma rotina complicada.
+
+**O Maestro resolve:** O Maestro monta a lista diária, as ações de aprovar, deixar para depois ou descartar e o acompanhamento do tempo de pesquisa.
+
+**O que precisa de você:** A capacidade já foi confirmada: uma empresa por dia e cinco por semana. Não perguntar novamente. Quando a tela estiver pronta, pedir que ele faça poucas ações simples e diga se conseguiu. Perguntar sobre o tempo de pesquisa anterior separadamente, se ainda faltar.
+
+**Enquanto isso:** A construção segue com exemplos. Comparar tempo economizado e validar a busca real exigem as informações e provas correspondentes; não inventar resultado de economia.
+
+**Como conversar:** Na hora do teste: “Abra a lista, escolha uma empresa e veja se consegue decidir se quer falar com ela. Ficou claro ou você mudaria alguma coisa?”
+
+O Maestro deve adaptar essas frases ao andamento comprovado e seguir o [guia de conversa](../../.adapta-cliente/comunicacao-com-leonardo.md). Não copiar os códigos e os detalhes de construção abaixo para uma mensagem ao Leonardo.
+<!-- fim-comunicacao-leonardo:2026-10-23 -->
+
+## Construção e verificação — referência do Maestro
+
 **Fase:** 1  
 **Status:** planejada  
 **Dono:** Primitivo (execução com o Maestro; teste de aceite pelo Country Manager); validação e fechamento pelo consultor Rodrigo Santos  

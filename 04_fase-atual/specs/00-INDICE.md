@@ -5,6 +5,12 @@
 **Plataforma:** app “Radar Primitivo” no Skip, executado pelo cliente com o Maestro  
 **Gerado em:** 05/10/2026
 
+## Comunicação e retomada — 23/10/2026
+
+Para o cliente, usar [o resumo em palavras simples](../para-leonardo.md). Para redigir perguntas e andamento, o Maestro lê [o guia de conversa](../../.adapta-cliente/comunicacao-com-leonardo.md). Cada SPEC contém uma explicação de negócio antes da referência técnica. Não repassar códigos, requisitos de construção ou contagens de testes como instruções ao Leonardo.
+
+Reutilizar o perfil de distribuidores aprovado em 22/10, a capacidade confirmada de 1/dia·5/semana e a decisão de adiar Apollo real. Próximo recorte: telas Fontes/execuções, revisão de cadastros repetidos e ficha da SPEC-1-004 com fixtures. Fonte real depende de aprovação específica após preparação pelo Maestro; não bloquear o recorte simulado por essa resposta. O cronograma abaixo é o planejamento original, não uma nova ordem de refazer as etapas já aceitas.
+
 ## Resultado da fase
 
 O Country Manager configura um perfil de cliente uma vez; em dias úteis o app busca empresas sozinho, dá uma nota explicada, encontra decisores e contatos pela Apollo dentro do teto e entrega às 07:00 uma fila do tamanho da capacidade dele, com proteção mínima dos dados reais.

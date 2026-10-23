@@ -1,5 +1,23 @@
 # SPEC-1-001 — Acesso protegido e proteção mínima dos dados
 
+<!-- inicio-comunicacao-leonardo:2026-10-23 -->
+## Explicação para Leonardo — Entrar no app e proteger as informações
+
+**O que você vai receber:** Só as pessoas autorizadas devem conseguir entrar, e os contatos precisam ficar protegidos.
+
+**O Maestro resolve:** O Maestro cuida da entrada, de quem pode fazer cada ação, do histórico e da cópia de segurança. Confere o que já existe antes de refazer qualquer coisa.
+
+**O que precisa de você:** Só confirmar quem vai usar o app e, quando chegar a hora, decisões sobre guardar ou deixar de usar contatos. Não pedir senha no chat nem perguntas sobre configurações.
+
+**Enquanto isso:** Os testes com exemplos podem continuar. Informações reais de pessoas só entram depois das verificações e decisões previstas nesta etapa.
+
+**Como conversar:** Além de você, mais alguém vai usar o app? Só perguntar se isso ainda não estiver registrado.
+
+O Maestro deve adaptar essas frases ao andamento comprovado e seguir o [guia de conversa](../../.adapta-cliente/comunicacao-com-leonardo.md). Não copiar os códigos e os detalhes de construção abaixo para uma mensagem ao Leonardo.
+<!-- fim-comunicacao-leonardo:2026-10-23 -->
+
+## Construção e verificação — referência do Maestro
+
 **Fase:** 1  
 **Status:** planejada  
 **Dono:** Primitivo (execução com o Maestro); aceite do consultor Rodrigo Santos  

@@ -6,9 +6,15 @@ Pacote operacional da Fase 1, montado e validado em 08/10/2026.
 
 O objetivo é configurar o perfil de cliente, descobrir empresas por fontes autorizadas, calcular a nota, buscar decisores pela Apollo dentro do teto e apresentar a fila diária no app do Skip.
 
-## Por onde começar
+## Para Leonardo
 
-A primeira entrega visual foi aprovada pelo Leonardo em 09/10/2026 (CL-005). O próximo recorte técnico é montar e testar os Perfis de busca (SPEC-1-002), conferindo antes login, papéis e auditoria da SPEC-1-001 no sistema atual.
+Veja [seu projeto em palavras simples](04_fase-atual/para-leonardo.md). Você não precisa ler a documentação de construção para continuar ou pedir ajuda.
+
+## Por onde o Maestro começa
+
+Antes de responder ao Leonardo, seguir [o guia de conversa](.adapta-cliente/comunicacao-com-leonardo.md) e consultar as decisões e os aceites mais recentes. Não enviar códigos, siglas ou um formulário antigo ao cliente como condição para construir.
+
+A entrega visual foi aprovada em 09/10 e os Perfis de busca em 22/10. O próximo recorte é continuar Fontes/execuções, revisão de cadastros repetidos e ficha da empresa (SPEC-1-004) com fixtures. Apollo real adiada; capacidade confirmada em 1/dia e 5/semana. Não cobrar novamente o ICP, a capacidade ou a contratação.
 
 1. Leia [STATUS.md](STATUS.md).
 2. Abra [as tasks da fase atual](04_fase-atual/fase.md): 27 tasks principais e 30 subtarefas. Os 57 cards mantêm os UUIDs conferidos; os três cards visuais estão concluídos e continuam sem prazo novo inventado.
@@ -29,13 +35,15 @@ A primeira entrega visual foi aprovada pelo Leonardo em 09/10/2026 (CL-005). O p
 
 O [Projeto Greenexta](07-sistemas/README.md) está vinculado como submódulo em `07-sistemas/projeto-greenexta-2n35968qi/`. Para carregar o código após clonar este repositório, execute `git submodule update --init --recursive`.
 
-## Pré-condições da execução
+## Condições para os usos reais correspondentes
 
 - Acesso ao Skip e ao Maestro e e-mails dos usuários.
-- Escolha do primeiro perfil, critérios e exemplos de empresas.
-- Plano Apollo com API, chave no cofre e teto de créditos aprovados.
+- Primeiro perfil, critérios e exemplos: recebidos; distribuidores aprovados em 22/10.
+- Apollo real: contratação/ativação adiada por decisão do Leonardo. Não cobrar chave agora; desenvolver e provar em modo simulado.
 - Fontes de empresas e direito de uso aprovados; SIPEAGRO + Apollo são a proposta a confirmar.
 - Regras de acesso, retenção e não contato aprovadas; cópia restaurada em teste antes de contatos reais.
-- Baseline de pesquisa e capacidade diária informados.
+- Capacidade: confirmada em 1/dia e 5/semana. Baseline e definição de contato válido continuam como verificações separadas; pedir apenas o que ainda faltar, no momento necessário.
+
+Essas condições não bloqueiam a construção independente com fixtures prevista nas SPECs. O Maestro prepara os detalhes técnicos e apresenta uma decisão de negócio por vez.
 
 Os prazos originais de 06/10 a 20/10/2026 foram preservados. A publicação do pacote não comprova execução, contratação de integrações ou aprovação de dados reais. Tasks e SPECs desta fase são sincronizadas pelo repositório operacional.

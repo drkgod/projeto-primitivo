@@ -4,19 +4,21 @@
 
 ## Execução pelo Maestro
 
+Antes de falar com Leonardo, ler [o guia de conversa](../.adapta-cliente/comunicacao-com-leonardo.md). Apresentar [o resumo simples](para-leonardo.md) ao cliente; não copiar as referências técnicas dos cards para o chat.
+
 O Maestro executa as tarefas técnicas da Fase 1 e mantém o quadro atualizado. Após uma entrega e o aceite aplicável, seleciona a próxima tarefa executável pelas dependências, sem aguardar o consultor escolher ou liberar cada card novamente. Execute uma tarefa técnica por vez.
 
 Pedidos de critérios, acessos, orçamento, fontes, regras de uso e baseline são entradas do Leonardo. O Maestro consulta os materiais já autorizados e solicita ao Leonardo apenas o que faltar, sem inventar decisão ou aprovação. Registra a pendência no card correspondente e continua nas tarefas técnicas que não dependem dela.
 
 Construção e testes usam dados fictícios no projeto de teste e Apollo simulada. Critérios reais bloqueiam a ativação real do perfil; chave, plano e teto bloqueiam chamadas reais; aprovações de fontes, uso dos contatos e restauração bloqueiam a operação real correspondente. Esses itens não bloqueiam a implementação com fixtures prevista nas SPECs. Uma prova simulada não conclui um critério que exige dado real ou aceite humano.
 
-Na próxima execução, conferir login, papéis e auditoria da SPEC-1-001 no sistema existente antes de integrar Perfis. A tarefa anterior foi retirada por relato do consultor, enquanto a análise do cliente não localizou essa base. Verificar a situação atual; reaproveitar o que existir e corrigir o recorte faltante da SPEC-1-001 no ambiente de teste, com evidências, sem pedir ao consultor que escolha outra task. Não declarar essa verificação ou correção já feita.
+Reaproveitar a base e os perfis já construídos. O login do Leonardo ainda aguarda a tentativa de acesso que ele combinou; isso não comprova o aceite dele nem a conclusão de toda a SPEC-1-001. Continuar as verificações técnicas previstas, sem repetir uma pergunta já respondida ou apresentar login validado sem retorno.
 
 Registrar um impedimento técnico com task, evidência, tentativa de recuperação e dependências afetadas. Continuar em outro recorte executável da fase quando possível. Escalar ao consultor mudanças de escopo e o aceite final da fase; decisões de negócio e testes humanos ficam com Leonardo conforme os cards.
 
-Próxima tarefa técnica: **Montar a tela de perfis de busca**, ID `d746b918-362a-4fbb-8763-0f0e4b634eb1`, SPEC-1-002 (CA-1-05/06; dois rascunhos independentes e CA-1-07 nas subtarefas). A ativação do perfil real é outra tarefa e continua dependente das entradas do cliente.
+Próximo recorte técnico: continuar as telas Fontes/execuções, revisão de cadastros repetidos e ficha da empresa na SPEC-1-004 com fixtures, conforme a fundação já registrada no teste. O perfil de distribuidores está ativo e aprovado desde 22/10; não reconstruir nem solicitar nova validação do ICP. A Apollo foi adiada; não aguardar chave nem contratação para esse recorte.
 
-As três tarefas visuais abaixo foram concluídas conforme o aceite CL-005 registrado em 09/10/2026. A revisão de 21/10 apenas reconcilia o quadro e o encaminhamento; nenhuma nova execução técnica é declarada.
+As três tarefas visuais foram concluídas com o aceite de 09/10. Os nove cards de entrada, construção e ativação dos perfis foram reconciliados com as decisões e o aceite de 22/10. A revisão de comunicação de 23/10 não declara nova implementação, teste ou aprovação.
 
 Cada linha é uma tarefa da Jornada de Execução. **Tudo que cabe num card cabe nesta linha** — se um
 campo não estiver aqui, ele não tem como ser preenchido, porque é este arquivo que cria a tarefa.
@@ -54,38 +56,38 @@ tarefas que já têm um.
 - [x] Validar o visual do app com o Country Manager @Primitivo  <!-- id:25619941-2494-489c-963d-84cd1af86445 -->
   > Apresentar a versão revisada ao Leonardo: abrir fila, entender a prioridade, abrir ficha, aprovar/desfazer, adiar e navegar entre perfis; repetir no celular e registrar o que falta, sobra ou mudaria. Fazer os ajustes visuais solicitados e obter aprovação explícita.
   > SPEC-1-008 · CA-1-38 · CL-005. Prova: roteiro e aceite-visual.md. A aprovação visual não encerra a Fase 1 nem comprova integrações; a jornada real permanece na SPEC-1-007.
-- [ ] Montar a tela de perfis de busca @Primitivo !08/10/2026  <!-- id:d746b918-362a-4fbb-8763-0f0e4b634eb1 -->
-  > O Maestro constrói e testa a tela com os dois perfis fictícios, formulário por seções e resumo do que falta antes de ativar. Não aguardar o ICP real nem a contratação da Apollo para esse recorte; reutilizar a UI aprovada e conferir antes a base de acesso da SPEC-1-001 conforme a orientação acima.
+- [x] Montar a tela de perfis de busca @Primitivo !08/10/2026  <!-- id:d746b918-362a-4fbb-8763-0f0e4b634eb1 -->
+  > Entrega concluída conforme registro e aceite de 22/10. Reutilizar as telas, os dois perfis e a validação já construídos; não reabrir esta entrega como se dependesse de um novo formulário.
   > SPEC-1-002 · CA-1-05, CA-1-06. Prova: testes de perfis verdes.
-  - [ ] Criar os perfis de distribuidores e de indústrias @Primitivo !08/10/2026  <!-- id:9e081d10-e673-42ae-a730-e73e175cd576 -->
+  - [x] Criar os perfis de distribuidores e de indústrias @Primitivo !08/10/2026  <!-- id:9e081d10-e673-42ae-a730-e73e175cd576 -->
     > Dois perfis independentes, cada um com critérios, cargos, capacidade e teto próprios. SPEC-1-002 · CA-1-07.
-  - [ ] Impedir a ativação de perfil incompleto @Primitivo !08/10/2026  <!-- id:ccc168e0-3178-4bb0-b2e6-a1bb34ea4b12 -->
+  - [x] Impedir a ativação de perfil incompleto @Primitivo !08/10/2026  <!-- id:ccc168e0-3178-4bb0-b2e6-a1bb34ea4b12 -->
     > Perfil sem região, cargo, critério, capacidade ou teto continua em rascunho e mostra a lista do que falta. SPEC-1-002 · CA-1-06.
-- [ ] Escolher o primeiro perfil e enviar os critérios de bom cliente @Primitivo !07/10/2026  <!-- id:dcc49939-f29e-46ac-8eba-832b3bf5c9e0 -->
+- [x] Escolher o primeiro perfil e enviar os critérios de bom cliente @Primitivo !07/10/2026  <!-- id:dcc49939-f29e-46ac-8eba-832b3bf5c9e0 -->
   > Com esses critérios o app dá a nota de cada empresa e decide quem entra na fila. Enviar pelo grupo do WhatsApp, em texto ou documento.
-  > Entrada do Leonardo, conduzida pelo Maestro: consultar os materiais já autorizados e pedir ao Leonardo os critérios ausentes. Não escolher o público nem inventar critérios em nome dele. Esta pendência bloqueia o perfil real, não a construção e os testes com perfil fictício.
+  > Concluído conforme respostas de 22/10 e aceite “Perfil confere”. Reutilizar o perfil aprovado; não pedir novamente o formulário ou uma autorização genérica para continuar. Novas dúvidas de negócio são tratadas apenas quando surgirem e uma por vez.
   > SPEC-1-002 · pré-condição do CA-1-08. Checklist: CL-001.
-  - [ ] Escolher entre distribuidores e indústrias para começar @Primitivo !07/10/2026  <!-- id:a12bc875-7c44-4794-bda8-1e03256ab499 -->
+  - [x] Escolher entre distribuidores e indústrias para começar @Primitivo !07/10/2026  <!-- id:a12bc875-7c44-4794-bda8-1e03256ab499 -->
     > Distribuidores regionais (importação direta/marca própria) ou indústrias de fertilizantes e bioestimulantes (matéria-prima). O outro perfil fica pronto, em rascunho. SPEC-1-002.
-  - [ ] Enviar cinco bons e cinco maus exemplos de empresas @Primitivo !07/10/2026  <!-- id:5e6af5ed-0e53-4432-b6f1-131a828b3316 -->
+  - [x] Enviar cinco bons e cinco maus exemplos de empresas @Primitivo !07/10/2026  <!-- id:5e6af5ed-0e53-4432-b6f1-131a828b3316 -->
     > Nome e estado de cada empresa; servem para conferir se a nota do app separa os bons dos maus. SPEC-1-002 (amostra usada na SPEC-1-005).
-  - [ ] Listar regiões, culturas, porte e cargos que importam @Primitivo !07/10/2026  <!-- id:b4cda5f4-8a97-4ebe-82a4-a909ffe5c2d0 -->
+  - [x] Listar regiões, culturas, porte e cargos que importam @Primitivo !07/10/2026  <!-- id:b4cda5f4-8a97-4ebe-82a4-a909ffe5c2d0 -->
     > Estados/municípios, culturas (soja, milho, café…), porte mínimo e até três famílias de cargo com os títulos usados no setor. SPEC-1-002.
-  - [ ] Listar empresas que nunca devem entrar na fila @Primitivo !07/10/2026  <!-- id:4db121ca-a846-4921-aa11-d5000f9ee28c -->
+  - [x] Listar empresas que nunca devem entrar na fila @Primitivo !07/10/2026  <!-- id:4db121ca-a846-4921-aa11-d5000f9ee28c -->
     > Clientes atuais, concorrentes, parceiros ou empresas que já recusaram. SPEC-1-002.
 - [ ] Liberar o acesso à Apollo com limite mensal de créditos @Primitivo !08/10/2026  <!-- id:c5e72ce3-d293-46c7-a104-67e8f2a0993d -->
-  > A Apollo é a fonte oficial de decisores e contatos. Sem plano com API, chave e teto, o app funciona só em modo de simulação.
-  > O Maestro implementa e testa o adaptador em modo simulado enquanto solicita ao Leonardo a confirmação de plano, teto e cadastro da chave no cofre. A pendência bloqueia chamadas reais, não o código e as provas simuladas da SPEC-1-003.
+  > Decisão registrada em 22/10: a ferramenta paga fica para depois, por orçamento e orientação do assessor. Não pedir contratação ou chave agora. O Maestro prepara e testa a conexão com exemplos, sem consumo pago real.
+  > Enquanto a contratação está adiada, o Maestro implementa e testa o adaptador simulado. Não reapresentar a contratação como pendência urgente nem interromper trabalho independente. Chamadas reais continuam bloqueadas.
   > SPEC-1-003 · pré-condição dos CA-1-11 e CA-1-13. Checklist: CL-PEND-002.
   - [ ] Confirmar o plano da Apollo com acesso à API @Primitivo !07/10/2026  <!-- id:f97fc9b8-69e4-49c7-a3c8-cb6e648b56a5 -->
     > Confirmar o plano contratado, o acesso à API e quantos créditos cada tipo de busca consome. SPEC-1-003.
   - [ ] Definir o teto mensal de créditos e o custo por contato @Primitivo !08/10/2026  <!-- id:8bf96caf-e6b7-4e95-b440-113fd5544461 -->
-    > Valor máximo de créditos por mês e custo máximo aceitável por contato válido. Ao atingir o teto, o app para de consumir. SPEC-1-003 · CA-1-11.
+    > O limite de 500 créditos/mês já foi mencionado pelo Leonardo; isso não libera gasto, contratação ou uso real. O custo por contato ainda deve ser confirmado quando a contratação for retomada. Não repetir o pedido de limite nem marcar este card inteiro concluído enquanto faltar o restante. SPEC-1-003 · CA-1-11.
   - [ ] Cadastrar a chave da Apollo no cofre do Skip @Primitivo !08/10/2026  <!-- id:c025b258-9ed3-42d4-a9a8-7cd6999f5786 -->
     > A chave fica só no cofre de segredos do projeto de produção; nunca em tela, arquivo ou mensagem. SPEC-1-003 · CA-1-09.
 - [ ] Aprovar a fonte inicial de empresas @Primitivo !08/10/2026  <!-- id:8f422530-9b50-4607-be7f-8c9b35f27e0a -->
-  > Proposta: base oficial SIPEAGRO (estabelecimentos de fertilizantes registrados no MAPA, dados abertos) e busca de empresas na Apollo pelo perfil. Aprovar as duas rotas, o endereço exato do arquivo oficial e a rotina diária.
-  > O Maestro prepara o cadastro das fontes e os importadores com amostras fictícias; registra a proposta e solicita a aprovação do Leonardo antes da ingestão real. Não marcar a fonte como aprovada sem resposta observável.
+  > O Maestro prepara o cadastro público do Ministério da Agricultura, localiza o arquivo e verifica as condições publicadas. Com isso pronto, pergunta ao Leonardo: “Posso usar esse cadastro para montar a primeira lista de empresas?” Explicar finalidade e limitações relevantes. Não pedir URL, formato ou validação técnica ao cliente. A busca paga continua adiada e depende de outra decisão.
+  > Usar a preparação da fonte registrada em 06_notas/2026-10-23-fonte-publica-proposta.md. As telas e os importadores com exemplos continuam antes da resposta. Não marcar a fonte como aprovada nem agendar uso real sem decisão observável.
   > SPEC-1-004 · pré-condição do CA-1-14. Checklist: CL-PEND-003.
 - [ ] Aprovar as regras de uso dos contatos @Primitivo !08/10/2026  <!-- id:3de24d80-34be-4b4e-8184-4657bec6f4b5 -->
   > Regras mínimas antes de qualquer contato real entrar no app: quem acessa, por quanto tempo o contato fica guardado e como atender um pedido de não contato.
@@ -98,11 +100,11 @@ tarefas que já têm um.
   - [ ] Definir como tratar pedido de não contato @Primitivo !08/10/2026  <!-- id:73becc1c-83b1-447f-a30e-8e1bfd4f7f1a -->
     > Quem registra o pedido e confirmação de que o contato bloqueado nunca volta por nenhuma carga. SPEC-1-001 · CA-1-03.
 - [ ] Medir o tempo atual de pesquisa e informar a capacidade diária @Primitivo !09/10/2026  <!-- id:417da661-3d97-4501-8612-884e5a5c0ff5 -->
-  > Anotar quanto tempo leva hoje para achar empresa, decisor e contato (cinco pesquisas), quantos leads novos dá para trabalhar por dia e por semana, e o que conta como contato válido e por quantos dias.
-  > O Maestro prepara a instrumentação e o relatório com fixtures e solicita ao Leonardo as cinco medições e a capacidade real. Não inventar baseline nem alegar ganho real antes do recebimento; a implementação da fila e da medição pode avançar em teste.
+  > A capacidade já está confirmada: uma empresa por dia e cinco por semana. Não perguntar de novo. Quando necessário para a medição, pedir separadamente apenas o tempo anterior de pesquisa e o que conta como contato utilizável, se ainda não estiverem registrados. O Maestro prepara o relatório e os testes com exemplos enquanto aguarda.
+  > O Maestro prepara a instrumentação e o relatório com fixtures, reutiliza a capacidade confirmada e pede uma informação faltante por vez. Não inventar baseline nem alegar ganho real antes da medição; a implementação da fila e do relatório pode avançar em teste.
   > SPEC-1-007 · pré-condição do CA-1-32. Checklist: CL-PEND-005.
-- [ ] Ativar o primeiro perfil com os critérios do cliente @Primitivo !09/10/2026  <!-- id:bba1553f-6269-48b4-886c-5f3cc81cf4f1 -->
-  > Preencher o perfil escolhido com o que o Leonardo enviou, ativar e pedir que ele confira o resumo.
+- [x] Ativar o primeiro perfil com os critérios do cliente @Primitivo !09/10/2026  <!-- id:bba1553f-6269-48b4-886c-5f3cc81cf4f1 -->
+  > Perfil de distribuidores ativo, versão 2, confirmado em 22/10 por “Perfil confere”. Não solicitar novamente a mesma confirmação. Ajustes posteriores usam a mudança pedida por Leonardo e preservam o histórico.
   > SPEC-1-002 · CA-1-05, CA-1-08. Prova: perfil ativo com versão e mensagem de confirmação do Country Manager.
 - [ ] Conectar o app à Apollo com controle de créditos @Primitivo !09/10/2026  <!-- id:c342f4e5-ab24-4894-a4ee-0fedd9380088 -->
   > Uma única porta de saída para a Apollo: respeita o teto, não repete consumo, registra cada chamada e tem modo de simulação para testes.

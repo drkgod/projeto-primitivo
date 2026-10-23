@@ -1,7 +1,25 @@
 # SPEC-1-008 — Primeira experiência visual do Radar Primitivo
 
+<!-- inicio-comunicacao-leonardo:2026-10-23 -->
+## Explicação para Leonardo — Conferir se as telas são fáceis de usar
+
+**O que você vai receber:** Leonardo deve conseguir navegar e entender o app no computador e no celular.
+
+**O Maestro resolve:** O Maestro constrói as telas, testa os botões e corrige os problemas antes de pedir uma avaliação.
+
+**O que precisa de você:** Esta avaliação já foi aprovada em 09/10. Não pedir novamente a mesma aprovação. Mostrar só mudanças novas que precisem de opinião.
+
+**Enquanto isso:** A aprovação das telas permite reutilizar o visual. Ela não comprova que a busca de empresas ou contatos reais esteja pronta.
+
+**Como conversar:** Só para uma mudança nova: “Fiz este ajuste na tela. Ficou mais fácil de entender?”
+
+O Maestro deve adaptar essas frases ao andamento comprovado e seguir o [guia de conversa](../../.adapta-cliente/comunicacao-com-leonardo.md). Não copiar os códigos e os detalhes de construção abaixo para uma mensagem ao Leonardo.
+<!-- fim-comunicacao-leonardo:2026-10-23 -->
+
+## Construção e verificação — referência do Maestro
+
 **Fase:** 1
-**Status:** planejada
+**Status:** concluída e aprovada — aceite visual registrado em 09/10/2026
 **Dono:** Primitivo, com o Maestro; validação visual pelo Country Manager
 **Origem no escopo:** DC-009 (interface enxuta), DC-012 (Skip + Maestro), RQ-009, CL-005; pedido do consultor de 08/10/2026 para uma entrega visual no início da fase usando as skills de UI/UX do cliente
 **Degrau da solução:** reuso do app existente e recursos nativos do Skip — reutilizar componentes, autenticação e stack já presentes, aplicando as skills de UI/UX instaladas no ambiente do Maestro.

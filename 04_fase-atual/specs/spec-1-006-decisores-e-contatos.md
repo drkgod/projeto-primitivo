@@ -1,5 +1,23 @@
 # SPEC-1-006 — Decisores e contatos das empresas aprovadas
 
+<!-- inicio-comunicacao-leonardo:2026-10-23 -->
+## Explicação para Leonardo — Encontrar a pessoa certa para conversar
+
+**O que você vai receber:** Cada empresa deve mostrar quem procurar e como falar com essa pessoa, quando houver um contato disponível.
+
+**O Maestro resolve:** O Maestro prepara a pesquisa, a organização e a proteção dos contatos e verifica se a função encontra o resultado certo. Não envia mensagens por conta própria.
+
+**O que precisa de você:** Se ainda faltar e for necessário para o próximo passo, confirmar qual função da empresa costuma decidir a compra. Reaproveitar os cargos já informados antes de perguntar.
+
+**Enquanto isso:** A construção continua com exemplos. Encontrar contatos reais pela ferramenta paga depende de ela ser liberada e de as proteções já estarem verificadas.
+
+**Como conversar:** Se não houver essa resposta no histórico: “Nessas empresas, você costuma falar primeiro com o dono ou com quem cuida das compras?”
+
+O Maestro deve adaptar essas frases ao andamento comprovado e seguir o [guia de conversa](../../.adapta-cliente/comunicacao-com-leonardo.md). Não copiar os códigos e os detalhes de construção abaixo para uma mensagem ao Leonardo.
+<!-- fim-comunicacao-leonardo:2026-10-23 -->
+
+## Construção e verificação — referência do Maestro
+
 **Fase:** 1  
 **Status:** planejada  
 **Dono:** Primitivo (execução com o Maestro); aceite do consultor Rodrigo Santos  

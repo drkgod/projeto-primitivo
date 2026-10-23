@@ -1,15 +1,29 @@
-# Status operacional — Radar Primitivo
+# Andamento do Radar Primitivo
 
-**Atualizado em:** 22/10/2026  
-**Fase atual:** 1 — Descoberta até a fila diária  
-**Estado:** SPEC-1-002 CONCLUÍDA (22/10, aceite "Perfil confere"). Perfil de distribuidores ativo na produção (v2) com o ICP v1 do champion.
+**Resumo revisto em:** 23/10/2026. **Último avanço de construção registrado:** 22/10/2026.
 
-- 8 SPECs com TDD e 38 critérios de aceite. Concluídas: SPEC-1-008 (09/10) e SPEC-1-002 (22/10) — coleções, hooks, telas, TDD GREEN 8/8 e perfil real ativo com aceite.
-- ICP v1 codificado no perfil ativo: matriz 2/2/2/1/1/1/0,5/0,5 (×2 no contrato), corte ≥6 = 60%, desqualificadores (recuperação judicial como impeditivo), 5 prospects fora da fila (v2).
-- Regra de identidade (22/10): UniAgro é o nome antigo — razão social sempre foi Modarc, hoje Grupo Modarc (UniAgro é uma das empresas do grupo). Materiais antigos que citam UniAgro se referem à Modarc.
-- Decisões do champion (22/10): teto Apollo 500 créditos/mês; primeiro acesso com senha provisória; módulos industriais para depois (dois casos).
-- Pendências do champion: chave da Apollo (SPEC-1-003 — teto 500/mês já decidido); medição da capacidade real (task 417da661); login/papéis com o consultor (SPEC-1-001); módulos industriais (2 casos, quando ele trouxer os nomes).
+## O que já está pronto
 
-**Próxima ação:** trazer a chave da Apollo para destravar a SPEC-1-003 (conexão com teto 500/mês) e medir a capacidade real de prospecção (task 417da661). O perfil ativo comanda a busca diária da SPEC-1-004 quando a Apollo conectar. Módulos industriais (2 casos) entram depois, com os nomes.
+- As primeiras telas foram aprovadas em 09/10.
+- O tipo de empresa que vamos procurar foi confirmado em 22/10: distribuidores. As escolhas e os exemplos enviados já estão no app e o resumo foi aprovado por Leonardo.
+- A capacidade foi confirmada: uma empresa por dia e cinco por semana.
 
-**Repositório:** [drkgod/projeto-primitivo](https://github.com/drkgod/projeto-primitivo), privado, branch `main`.
+## O trabalho que continua
+
+A preparação para organizar as empresas já passou pelos testes registrados em 22/10. O próximo trabalho é montar as telas para acompanhar as buscas, conferir cadastros repetidos e ver a ficha de cada empresa. Isso pode continuar com exemplos de teste, enquanto a base real é preparada.
+
+Esta revisão atualiza as orientações e o acompanhamento. Ela não significa que uma nova tela já foi construída ou que uma sessão do Maestro começou sozinha.
+
+## Decisões e informações
+
+- **Tipo de empresa e capacidade:** já confirmados. Não precisa preencher de novo o formulário nem responder novamente quantas empresas consegue trabalhar.
+- **Ferramenta paga de busca de contatos:** fica para depois, por decisão de Leonardo. Não é necessário contratar ou enviar códigos de acesso para os testes com exemplos continuarem.
+- **Cadastro público de empresas:** o Maestro prepara a fonte e explica sua finalidade. Antes de usar a base real, pede uma autorização específica em linguagem simples. Essa autorização ainda não está registrada.
+- **Primeiro acesso ao app:** Leonardo fará a tentativa combinada. Só pedir retorno sobre isso se for necessário; não declarar que ele já testou sem confirmação.
+- **Tempo de pesquisa anterior e regras para guardar contatos:** verificar o que já foi informado e pedir somente o que faltar, uma pergunta de cada vez, quando a decisão for necessária.
+
+As decisões para usar informações reais e contratar ferramentas permanecem com Leonardo. A construção independente continua nos exemplos de teste. O projeto ainda não concluiu toda a primeira etapa.
+
+Veja [o resumo simples do projeto](04_fase-atual/para-leonardo.md).
+
+<!-- Referências do Maestro: .adapta-cliente/estado-atual.md; 05_entregas/fase-1/SPEC-1-002/aceite-resumo.md; changelog.md (22/10, 19:30); 04_fase-atual/fase.md. Identidade comercial: usar Grupo Modarc conforme correção registrada, sem reabrir a decisão. -->

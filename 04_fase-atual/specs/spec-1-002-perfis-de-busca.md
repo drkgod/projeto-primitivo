@@ -1,7 +1,25 @@
 # SPEC-1-002 — Perfis de busca (ICP) configuráveis e ativados
 
+<!-- inicio-comunicacao-leonardo:2026-10-23 -->
+## Explicação para Leonardo — Definir quais empresas vale a pena procurar
+
+**O que você vai receber:** A lista deve trazer empresas parecidas com as que Leonardo considera boas oportunidades.
+
+**O Maestro resolve:** O Maestro aproveita os exemplos e as decisões já enviados e deixa a seleção de empresas organizada no app.
+
+**O que precisa de você:** Nada a aprovar novamente agora: o perfil foi confirmado em 22/10, com a mensagem “Perfil confere”. Não reenviar o formulário. Perguntar apenas se aparecer uma mudança de negócio ainda não decidida.
+
+**Enquanto isso:** O tipo de empresa já está definido e pode ser usado na construção. Isso não significa que a busca paga de contatos esteja liberada.
+
+**Como conversar:** Se houver uma mudança nova: “Essa empresa também deve entrar na busca ou você prefere deixar de fora?”
+
+O Maestro deve adaptar essas frases ao andamento comprovado e seguir o [guia de conversa](../../.adapta-cliente/comunicacao-com-leonardo.md). Não copiar os códigos e os detalhes de construção abaixo para uma mensagem ao Leonardo.
+<!-- fim-comunicacao-leonardo:2026-10-23 -->
+
+## Construção e verificação — referência do Maestro
+
 **Fase:** 1  
-**Status:** planejada  
+**Status:** concluída — aceite “Perfil confere” registrado em 22/10/2026; não reabrir o formulário  
 **Dono:** Primitivo (execução com o Maestro; conteúdo dos critérios pelo Country Manager); aceite do consultor Rodrigo Santos  
 **Origem no escopo:** DC-002, DC-009, DC-013; RQ-001; gate G-03; critério da Fase 1 “um ICP pode ser salvo, validado e ativado”; checklist `CL-001` e `CL-PEND-001`  
 **Degrau da solução:** nativo da plataforma — coleções, regras de acesso e telas do Skip; nenhuma biblioteca extra.

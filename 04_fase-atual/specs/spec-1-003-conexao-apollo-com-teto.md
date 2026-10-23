@@ -1,5 +1,23 @@
 # SPEC-1-003 — Conexão com a Apollo sob teto de créditos
 
+<!-- inicio-comunicacao-leonardo:2026-10-23 -->
+## Explicação para Leonardo — Encontrar contatos sem gastar além do combinado
+
+**O que você vai receber:** Quando a ferramenta paga for contratada e liberada, o app poderá procurar as pessoas certas e controlar o uso.
+
+**O Maestro resolve:** O Maestro prepara a conexão e testa o funcionamento com exemplos, sem usar a ferramenta paga de verdade.
+
+**O que precisa de você:** Nenhuma cobrança agora. Leonardo adiou a ferramenta paga por orçamento e por orientação do assessor. Não pedir contratação, código de acesso ou pagamento enquanto essa decisão não mudar.
+
+**Enquanto isso:** A construção continua com exemplos. O limite de uso já mencionado não autoriza contratação ou gasto. A decisão de usar a ferramenta de verdade fica para depois.
+
+**Como conversar:** Só quando ele retomar o assunto: “Você quer continuar os testes sem custo com essa ferramenta ou já quer avaliar a contratação?”
+
+O Maestro deve adaptar essas frases ao andamento comprovado e seguir o [guia de conversa](../../.adapta-cliente/comunicacao-com-leonardo.md). Não copiar os códigos e os detalhes de construção abaixo para uma mensagem ao Leonardo.
+<!-- fim-comunicacao-leonardo:2026-10-23 -->
+
+## Construção e verificação — referência do Maestro
+
 **Fase:** 1  
 **Status:** planejada  
 **Dono:** Primitivo (contrato, chave e execução com o Maestro); aceite do consultor Rodrigo Santos  

@@ -1,5 +1,23 @@
 # SPEC-1-005 — Score híbrido explicável e gate da empresa
 
+<!-- inicio-comunicacao-leonardo:2026-10-23 -->
+## Explicação para Leonardo — Mostrar quais empresas merecem atenção primeiro
+
+**O que você vai receber:** Leonardo deve conseguir entender por que uma empresa parece uma boa oportunidade.
+
+**O Maestro resolve:** O Maestro calcula a prioridade usando as escolhas já confirmadas e mostra os motivos em palavras comuns. Usa os exemplos que Leonardo já enviou.
+
+**O que precisa de você:** Quando a comparação estiver pronta, olhar algumas empresas conhecidas e dizer se a indicação faz sentido. Não pedir pesos, fórmulas ou uma nova lista inteira de exemplos.
+
+**Enquanto isso:** O cálculo e as telas podem ser construídos com exemplos. A conferência de Leonardo sobre as indicações reais continua necessária no momento previsto.
+
+**Como conversar:** Essas empresas parecem boas oportunidades para você? Tem alguma aqui que você não procuraria?
+
+O Maestro deve adaptar essas frases ao andamento comprovado e seguir o [guia de conversa](../../.adapta-cliente/comunicacao-com-leonardo.md). Não copiar os códigos e os detalhes de construção abaixo para uma mensagem ao Leonardo.
+<!-- fim-comunicacao-leonardo:2026-10-23 -->
+
+## Construção e verificação — referência do Maestro
+
 **Fase:** 1  
 **Status:** planejada  
 **Dono:** Primitivo (execução com o Maestro; critérios e conferência pelo Country Manager); aceite do consultor Rodrigo Santos  

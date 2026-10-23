@@ -1,5 +1,14 @@
 # Histórico operacional
 
+## 23/10/2026 — Comunicação simples e retomada sem perguntas repetidas
+
+- Orientação do consultor: Leonardo deve receber explicações e perguntas de negócio sem siglas, códigos ou exigência de conhecimento técnico. Criados guia de conversa e resumo simples; as oito SPECs recebem uma explicação de negócio antes da referência do Maestro, preservando os contratos e as provas técnicas.
+- Reconciliados o quadro e o encaminhamento com o aceite do perfil em 22/10, a capacidade 1/dia·5/semana e a decisão de adiar Apollo por orçamento/assessor. Não solicitar novamente o formulário aprovado, a capacidade ou chave/contratação da Apollo.
+- Nove cards de entrada, construção e ativação de Perfis marcados concluídos com base nas respostas, provas e aceite já registrados em 22/10; nenhuma nova execução inferida. IDs, títulos, responsáveis, prazos e hierarquia preservados.
+- O Maestro prepara fonte, arquivo, formato e condições de uso. Ao cliente, pede só uma decisão específica e compreensível; não exige URL ou validação técnica. Telas e provas simuladas continuam enquanto a autorização de uso real estiver pendente.
+- Fonte pública candidata documentada com páginas oficiais e arquivo indicado pelo MAPA; não foi aprovada em nome do Leonardo, importada no app nem agendada nesta revisão.
+- Alteração documental: não comprova atualização do runtime do Maestro, retomada de sessão, novos testes do app ou liberação de dados/consumo reais.
+
 ## 22/10/2026 (19:30) — Decisão Apollo + fundação da SPEC-1-004 no teste (GREEN)
 
 - Decisão do champion (19:01): Apollo ADIADA — aguarda orientação do assessor e não está no

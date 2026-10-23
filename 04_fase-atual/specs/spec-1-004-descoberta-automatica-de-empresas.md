@@ -1,7 +1,25 @@
 # SPEC-1-004 — Descoberta automática e ficha da empresa
 
+<!-- inicio-comunicacao-leonardo:2026-10-23 -->
+## Explicação para Leonardo — Montar a lista de empresas e conferir os cadastros
+
+**O que você vai receber:** O app deve organizar empresas com potencial e evitar que a mesma empresa apareça repetida.
+
+**O Maestro resolve:** O Maestro prepara a busca no cadastro público, confere as informações necessárias e constrói as telas para acompanhar os resultados. Também trata os cadastros repetidos.
+
+**O que precisa de você:** Depois de a fonte estar preparada, confirmar apenas se pode usar aquele cadastro para a finalidade explicada. O Maestro encontra o arquivo e verifica os detalhes; Leonardo não precisa escolher endereços técnicos nem formatos.
+
+**Enquanto isso:** As telas, a organização e os testes com exemplos continuam antes da resposta. O uso real do cadastro aguarda sua aprovação específica. A ferramenta paga permanece adiada.
+
+**Como conversar:** Minha sugestão é começar pelo cadastro público do Ministério da Agricultura para montar a primeira lista de empresas. Posso usar essa base?
+
+O Maestro deve adaptar essas frases ao andamento comprovado e seguir o [guia de conversa](../../.adapta-cliente/comunicacao-com-leonardo.md). Não copiar os códigos e os detalhes de construção abaixo para uma mensagem ao Leonardo.
+<!-- fim-comunicacao-leonardo:2026-10-23 -->
+
+## Construção e verificação — referência do Maestro
+
 **Fase:** 1  
-**Status:** planejada  
+**Status:** em andamento — fundação testada em 22/10/2026; uso real da fonte ainda não aprovado  
 **Dono:** Primitivo (aprovação da fonte e execução com o Maestro); aceite do consultor Rodrigo Santos  
 **Origem no escopo:** DC-003, DC-011, DC-013; RQ-002, RQ-003, RQ-017; gate G-01A; critérios da Fase 1 “execução programada, sem upload de lista…” e “uma empresa entra por ao menos duas rotas, é consolidada…”; checklist `CL-PEND-003`  
 **Degrau da solução:** nativo da plataforma — rotinas agendadas (`cronAdd`), hooks, `$http.send` e coleções do Skip; a busca na Apollo passa pelo módulo da SPEC-1-003. Construção mínima só da normalização e da deduplicação.
