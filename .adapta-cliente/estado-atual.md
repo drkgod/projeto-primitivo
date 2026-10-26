@@ -1,17 +1,16 @@
 # Estado atual — Adapta Cliente
 
 - schema_version: adapta-cliente-state/v3
-- task_id: SPEC-1-005-nota-icp — CONCLUÍDA TECNICAMENTE (conferência do champion pendente; importação real executada)
+- task_id: SPEC-1-005-nota-icp — sistema pronto para pesos do champion; regras de base aplicadas (26/10 17:00)
 - executor: maesthos (Ethos do cliente)
-- owner_informativo: Leonardo (champion)
-- decisao_apollo_19_01: ADIADA — aguarda assessor; quando liberar: chave → busca real → validação → fila
-- capacidade: CONFIRMADA pelo champion (1/dia · 5/sem)
-- TRÊS DECISÕES APLICADAS (26/10 14:49, instrução do champion):
-  1. BA no perfil ativo (migração 0017): UFs = SP, MG, RS, PR, PE, ES, SC, GO, BA — 485 empresas da BA importadas; Unifert-LEM encontrável na busca real
-  2. Sintéticos limpos (migração 0016): UNIAGRO-SP + revisões/origens/execuções de teste removidos; exemplos de calibragem sem CNPJ inventado, origem 'manual'; provas futuras da tela de decisão no ambiente de TESTE (64536)
-  3. Usuário de verificação (migração 0015 + 0018/0019): verificacao@radar.local / VerifRadar@2026 (segredo RADAR_VERIF_PASSWORD) — só leitura PROVADO (rota Executar agora 403; revisões bloqueadas; própria senha bloqueada); RADAR_LEO_TEMP_PASSWORD REMOVIDO — nunca mais redefinir a senha do Leonardo; campo 'papel' NÃO persistiu na coleção users gerenciada pela plataforma (2 tentativas) — regras por E-MAIL (0019)
-- IMPORTAÇÃO REAL DO MAPA (26/10 15:45): arquivo oficial baixado no pod (2,87 MB, 15.884 linhas); 1ª tentativa 10.170 inválidas (mapeamento uf errado — arquivo usa UNIDADE_DA_FEDERACAO; corrigido na fonte); 2ª tentativa FINAL: 21 lotes → 10.170 lidas, 5.403 novas, 2.390 já conhecidas (idempotência provada), 2.310 para conferir, 67 inválidas. Produção: 5.414 empresas, 485 BA, 6 bons exemplos intactos
-- EXECUTAR AGORA (v0.0.26, ref f07195a publicado): rota /backend/v1/executar-agora + botão na tela Fontes (auth por e-mail, dry_run, lotes de 500); LIMITAÇÃO: $http.send do Skip Cloud não alcançou dados.agricultura.gov.br (dry_run pendente >25 min — egress bloqueado/lento); caminho operacional atual: Maestro baixa e injeta via admin (idempotente)
-- proximo_ciclo: (1) DECISÃO DO CHAMPION sobre 2.310 revisões pendentes (volume alto — prováveis filiais mesmo nome+UF; revisar 1 a 1 é inviável; definir regra de junção ou triagem); (2) reporte do champion sobre a /conferencia (CA-1-23); (3) 67 inválidas (padrão na tela Fontes); (4) botão 100% no app depende de egress do Skip Cloud; (5) Apollo real permanece adiada
-- atualizado_em: 2026-10-26T15:50:00-03:00
-- comunicacao: seguir .adapta-cliente/comunicacao-com-leonardo.md; não pedir novamente ICP aprovado, capacidade confirmada, Apollo adiada, fonte aprovada; uma pergunta simples por vez
+- REGRAS DO CHAMPION (26/10 17:00) — TODAS APLICADAS E PROVADAS:
+  1. Situação jurídica NUNCA filtra entrada/saída — só compõe a nota (critério situacao_juridica no perfil, pontos 0 + peso_pendente até a tabela chegar; nada inventado)
+  2. CNPJ FORA de qualquer chave automática (MAPA só traz mascarado); cnpj_raiz/cnpj_completo/cnpj_fonte em dados_juridicos_cnpj, vazios para enriquecimento futuro (Receita Federal + site)
+  3. Agrupamento por nome_normalizado+UF → grupo provável + confirmação ÚNICA (nunca fusão automática); empresa confirmada = 1 empresa com N unidades (Belagricola SP já CONFIRMADA pelo champion, 2 unidades)
+  4. Toda linha do MAPA com nome é ativo na base: 2.310 ambíguas convertidas em unidades + 645 grupos prováveis (645 revisões de grupo pendentes da confirmação dele); 0 estacionadas fora
+  5. Sementes jurídicas verificadas: Belagricola rec_extrajudicial (proc. 0070681-58.2025.8.16.0014, Curitiba, 11/12/2025) e Agrogalaxy rec_judicial (plano abr/2025, homologado mai/2025) em dados_juridicos_cnpj
+- ESTADO: 7.167 empresas, 646 grupos (1 confirmado + 645 prováveis), 0 revisões de divergência pendentes, base intacta
+- PESOS: rota /backend/v1/aplicar-pesos PRONTA E PROVADA (sem segredo RADAR_PESOS_CRITERIOS responde instrução, não inventa; com segredo aplica e recalcula TODAS as notas)
+- PADRÃO DE SCHEMA PROVADO NESTE SKIP CLOUD: coleções novas persistem campos SOMENTE com objetos simples {name,type,...} (0007); construtores new TextField/SelectField/JSONField/RelationField/BoolField NÃO persistem (0015/0018/0020/0023 falharam silenciosamente); fields.add em coleção existente NÃO persiste; candidato nas revisões guarda o leiaute CRU do MAPA em CHAVES MAIÚSCULAS (RAZAO_SOCIAL, UNIDADE_DA_FEDERACAO...)
+- proximo_ciclo: (1) tabela de pesos do champion (soma 20) → aplicar-pesos; (2) confirmação dos 645 grupos prováveis; (3) conferência das notas (CA-1-23); (4) enriquecimento CNPJ + situação jurídica em massa (campos prontos); (5) telas de grupos/unidades; (6) Apollo real permanece adiada
+- atualizado_em: 2026-10-26T17:10:00-03:00
