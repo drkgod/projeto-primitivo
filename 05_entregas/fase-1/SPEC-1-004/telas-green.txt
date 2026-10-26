@@ -1,0 +1,17 @@
+ℹ tests 27
+ℹ pass 27
+ℹ fail 0
+
+SUÍTE COMPLETA (26/10/2026): descoberta 4 + revisões de fusão 4 + perfis 8 + demo 11 — sem regressão.
+Comando: RADAR_URL=<url-interna-do-64536> node --test 07-sistemas/radar-primitivo/testes/
+
+Revisões de fusão (revisoes-fusao.test.mjs):
+✔ RN-05: manter separadas cria ficha própria do candidato com origem
+✔ RN-05: fundir copia os dados do candidato como origem da empresa existente
+✔ revisão já decidida não decide de novo (idempotência)
+✔ ação desconhecida é recusada com erro claro
+
+Telas publicadas no teste (v0.0.22): /empresas, /empresas/:id, /fontes, /revisoes.
+Prova visual: estado vazio renderiza sem erro sem sessão (capturas em artifacts do Maestro);
+sessão injetada não é adotada pelo SDK do app — prova com dados preenchidos fica para o
+primeiro login do Leonardo (combinado).
