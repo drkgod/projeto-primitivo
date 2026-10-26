@@ -1,22 +1,17 @@
 # Estado atual — Adapta Cliente
 
 - schema_version: adapta-cliente-state/v3
-- task_id: SPEC-1-005-nota-icp — CONCLUÍDA TECNICAMENTE (conferência do champion pendente)
+- task_id: SPEC-1-005-nota-icp — CONCLUÍDA TECNICAMENTE (conferência do champion pendente; importação real executada)
 - executor: maesthos (Ethos do cliente)
 - owner_informativo: Leonardo (champion)
-- decisao_apollo_19_01: ADIADA — aguarda assessor; app em MODO DE SIMULAÇÃO; quando liberar: chave → busca real → validação → fila
+- decisao_apollo_19_01: ADIADA — aguarda assessor; quando liberar: chave → busca real → validação → fila
 - capacidade: CONFIRMADA pelo champion (1/dia · 5/sem)
-- modulos_industriais: após a Fase 1 completa (como combinado)
-- SPEC-1-002: CONCLUÍDA (aceite 18:15)
-- SPEC-1-004: fundação + revisão de fusão + telas no teste 64536 (suíte 27/27); fonte MAPA APROVADA 26/10 12:05
-- SPEC-1-005 (26/10): nota na criação + bloco "Por que esta nota" + recálculo provado + tela Conferir notas; critério situacao_ativa corrigido (v0.0.13) + recálculo único (0011)
-- AJUSTE UNIFERT (26/10 14:05, instrução do champion): Unifert (Uniagro de Luiz Eduardo Magalhães/BA) é OUTRA empresa, sem relação com a Modarc — registrada como 5º mau exemplo com nome exato 'Unifert (Uniagro de Luiz Eduardo Magalhães)', município OBRIGATÓRIO (nome fantasia Uniagro se repete), SEM CNPJ inventado, origem 'manual' com observação. LISTA CONFIRMADA NA TELA: 6 bons (Goplan, Modarc, Agromol, Nubio Tech, PMX, Dedeagro) + 5 maus (Belagricola, Agrogalaxy, Lavoro, Sagra, Unifert-LEM)
-- CHAVE DE DUPLICIDADE (26/10, instrução do champion): VERIFICADO — era nome+UF somente (sem município nem CNPJ); CORRIGIDO nos hooks dos dois ambientes: nome+UF+MUNICÍPIO com CNPJ mascarado como discriminador; divergência de município OU CNPJ → revisão humana, nunca fusão automática. PROVADO na produção: 3 linhas SP mesmo nome → 1 nova + 2 revisões pendentes ('município diferente' e 'CNPJ diferente'). Suíte 27/27 no teste após a mudança (v0.0.33)
-- LACUNA FLAGADA AO CHAMPION: BA NÃO está nas UFs do perfil ativo (SP, MG, RS, PR, PE, ES, SC, GO) — a rotina rejeita linhas da Bahia ('fora das UFs do perfil'); Unifert/Uniagro-LEM só entram na busca real se ele adicionar BA ao perfil. DECISÃO DELE
-- SENHA DO CHAMPION: ao verificar (26/10 ~17:00) o login falhou — ele tinha trocado a senha; senha REDEFINIDA para Primitivo@2026 via migração 0013 + segredo RADAR_LEO_TEMP_PASSWORD; AVISAR para trocar de novo na /conta
-- ADMIN DE OPERAÇÃO: superusuário admin@radar.local criado (segredo RADAR_ADMIN_PASSWORD) para injeção de lotes do MAPA e manutenção — o app-user é corretamente bloqueado para criação de execuções
-- DADOS SINTÉTICOS DE TESTE na produção: UNIAGRO COMERCIO DE INSUMOS LTDA (SP/São Paulo, CNPJs inventados **.***.999/.777) + 2 revisões pendentes — deixados como teste vivo da tela de decisão; champion pode decidir ou pedir limpeza
-- rotina_diaria: 100% automática NÃO é possível (portal MAPA só aceita download por navegador) — ALTERNATIVA proposta: Maestro baixa e injeta o lote sob demanda (agora viável via admin) + botão "Executar agora" na tela Fontes quando validado
-- proximo_ciclo: (1) reporte do champion sobre a /conferencia (CA-1-23) e decisão sobre BA no perfil; (2) troca de senha pelo champion (redefinida para Primitivo@2026); (3) importação real do arquivo MAPA (lote sob demanda via admin) e botão Executar agora; (4) Apollo real permanece adiada
-- atualizado_em: 2026-10-26T14:20:00-03:00
+- TRÊS DECISÕES APLICADAS (26/10 14:49, instrução do champion):
+  1. BA no perfil ativo (migração 0017): UFs = SP, MG, RS, PR, PE, ES, SC, GO, BA — 485 empresas da BA importadas; Unifert-LEM encontrável na busca real
+  2. Sintéticos limpos (migração 0016): UNIAGRO-SP + revisões/origens/execuções de teste removidos; exemplos de calibragem sem CNPJ inventado, origem 'manual'; provas futuras da tela de decisão no ambiente de TESTE (64536)
+  3. Usuário de verificação (migração 0015 + 0018/0019): verificacao@radar.local / VerifRadar@2026 (segredo RADAR_VERIF_PASSWORD) — só leitura PROVADO (rota Executar agora 403; revisões bloqueadas; própria senha bloqueada); RADAR_LEO_TEMP_PASSWORD REMOVIDO — nunca mais redefinir a senha do Leonardo; campo 'papel' NÃO persistiu na coleção users gerenciada pela plataforma (2 tentativas) — regras por E-MAIL (0019)
+- IMPORTAÇÃO REAL DO MAPA (26/10 15:45): arquivo oficial baixado no pod (2,87 MB, 15.884 linhas); 1ª tentativa 10.170 inválidas (mapeamento uf errado — arquivo usa UNIDADE_DA_FEDERACAO; corrigido na fonte); 2ª tentativa FINAL: 21 lotes → 10.170 lidas, 5.403 novas, 2.390 já conhecidas (idempotência provada), 2.310 para conferir, 67 inválidas. Produção: 5.414 empresas, 485 BA, 6 bons exemplos intactos
+- EXECUTAR AGORA (v0.0.26, ref f07195a publicado): rota /backend/v1/executar-agora + botão na tela Fontes (auth por e-mail, dry_run, lotes de 500); LIMITAÇÃO: $http.send do Skip Cloud não alcançou dados.agricultura.gov.br (dry_run pendente >25 min — egress bloqueado/lento); caminho operacional atual: Maestro baixa e injeta via admin (idempotente)
+- proximo_ciclo: (1) DECISÃO DO CHAMPION sobre 2.310 revisões pendentes (volume alto — prováveis filiais mesmo nome+UF; revisar 1 a 1 é inviável; definir regra de junção ou triagem); (2) reporte do champion sobre a /conferencia (CA-1-23); (3) 67 inválidas (padrão na tela Fontes); (4) botão 100% no app depende de egress do Skip Cloud; (5) Apollo real permanece adiada
+- atualizado_em: 2026-10-26T15:50:00-03:00
 - comunicacao: seguir .adapta-cliente/comunicacao-com-leonardo.md; não pedir novamente ICP aprovado, capacidade confirmada, Apollo adiada, fonte aprovada; uma pergunta simples por vez
