@@ -4,3 +4,4 @@
 - 2026-10-22T14:15:00-03:00 · task SPEC-1-002-perfis-busca · capturado:06_notas/aprendizado-continuo/AP-2026-10-22-1415-jsvm-top-level.md
 - 2026-10-22T14:30:00-03:00 · task SPEC-1-002-perfis-busca · capturado:06_notas/aprendizado-continuo/AP-2026-10-22-1430-lista-filtra.md
 - 2026-10-26T11:00:00-03:00 · task SPEC-1-004-telas-e-revisao · capturado:06_notas/aprendizado-continuo/AP-2026-10-26-1100-hooks-goja-json.md
+- 2026-10-26T12:00:00-03:00 · task SPEC-1-005-nota-icp · capturado:06_notas/aprendizado-continuo/AP-2026-10-26-1200-bloqueio-recalculo.md
